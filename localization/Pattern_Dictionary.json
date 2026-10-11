@@ -1,6 +1,6 @@
 {
   "description": "动态文本正则替换（MoShi_FanYi）。",
-  "updatedAt": "2026-08-13",
+  "updatedAt": "2026-10-10",
   "patterns": [
     {
       "regex": "^(\\d+) requests? remaining$",
@@ -1196,6 +1196,16 @@
       "regex": "^([\\d,.]+(?:K|M)?)\\s+out of\\s+([\\d,.]+(?:K|M)?)\\s+tokens$",
       "flags": "i",
       "replacement": "$1 / $2 token"
+    },
+    {
+      "regex": "^(\\d+) more unread$",
+      "flags": "i",
+      "replacement": "另有 $1 条未读"
+    },
+    {
+      "regex": "^Up to (\\d+) Projects in a message$",
+      "flags": "",
+      "replacement": "一条消息最多 $1 个项目"
     }
   ]
 }

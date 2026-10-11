@@ -1,6 +1,6 @@
 {
   "description": "Cursor 通用界面主词典。修改后重新运行 Cursor_Localization_Tool.py 注入生效。",
-  "updatedAt": "2026-07-15",
+  "updatedAt": "2026-10-10",
   "sections": [
     {
       "id": "左侧导航栏",
@@ -11031,6 +11031,3738 @@
         [
           "Search Skills for User...",
           "搜索用户技能..."
+        ]
+      ]
+    },
+    {
+      "id": "cursor_3_24_新增",
+      "title": "Cursor 3.24 新增界面",
+      "entries": [
+        [
+          "Self-Driving PRs",
+          "自动驾驶 PR"
+        ],
+        [
+          "Self-Driving Mode",
+          "自动驾驶模式"
+        ],
+        [
+          "Source Control",
+          "源代码管理"
+        ],
+        [
+          "New Agents Window (Glass)",
+          "新建智能体窗口（Glass）"
+        ],
+        [
+          "Switch to Agents Window (Glass)",
+          "切换到智能体窗口（Glass）"
+        ],
+        [
+          "Open or Focus Agents Window (Glass)",
+          "打开或聚焦智能体窗口（Glass）"
+        ],
+        [
+          "Use in Agents Window",
+          "在智能体窗口中使用"
+        ],
+        [
+          "Open Agents Window and Start Cloud Agent",
+          "打开智能体窗口并启动云端智能体"
+        ],
+        [
+          "Close Agents window",
+          "关闭智能体窗口"
+        ],
+        [
+          "Fix CI, conflicts, and comments with full self driving",
+          "用自动驾驶处理 CI、冲突和评论"
+        ],
+        [
+          "Start When I Open a PR",
+          "我打开 PR 时启动"
+        ],
+        [
+          "New Cloud Agent",
+          "新建云端智能体"
+        ],
+        [
+          "Try Cloud Agent",
+          "试用云端智能体"
+        ],
+        [
+          "Set Up Cloud Agents",
+          "设置云端智能体"
+        ],
+        [
+          "Upgrade to run Cloud Agents",
+          "升级以运行云端智能体"
+        ],
+        [
+          "Upgrade to Ultra for more Cloud Agents",
+          "升级到 Ultra 以使用更多云端智能体"
+        ],
+        [
+          "Failed to start Cloud Agent",
+          "启动云端智能体失败"
+        ],
+        [
+          "Failed to switch to Cloud Agent",
+          "切换到云端智能体失败"
+        ],
+        [
+          "Failed to switch to cloud agent.",
+          "切换到云端智能体失败。"
+        ],
+        [
+          "Open Cloud Agent by ID",
+          "按 ID 打开云端智能体"
+        ],
+        [
+          "Enter a Cloud Agent ID to open",
+          "输入要打开的云端智能体 ID"
+        ],
+        [
+          "Please enter a Cloud Agent ID.",
+          "请输入云端智能体 ID。"
+        ],
+        [
+          "Cloud Agent Environment",
+          "云端智能体环境"
+        ],
+        [
+          "Switch Cloud Agent Environment",
+          "切换云端智能体环境"
+        ],
+        [
+          "Start Cloud Agent Environment Setup",
+          "开始云端智能体环境设置"
+        ],
+        [
+          "Start Cloud Agent Setup",
+          "开始云端智能体设置"
+        ],
+        [
+          "Restart Cloud Agent Environment Setup",
+          "重新开始云端智能体环境设置"
+        ],
+        [
+          "Fetching and switching to the Cloud Agent branch.",
+          "正在获取并切换到云端智能体分支。"
+        ],
+        [
+          "Cloud Agent data is still loading. Please try opening this agent again.",
+          "云端智能体数据仍在加载。请稍后再次打开此智能体。"
+        ],
+        [
+          "Cloud Agent data not found",
+          "未找到云端智能体数据"
+        ],
+        [
+          "Cloud Agent is not enabled. Please enable it in the settings.",
+          "云端智能体未启用。请在设置中启用。"
+        ],
+        [
+          "Cloud Agent needs to store your code to function properly. You can enable storage while maintaining privacy.",
+          "云端智能体需要存储代码才能正常工作。您可以在启用存储的同时保持隐私。"
+        ],
+        [
+          "Cloud agents work from a clone of your repository in a secure sandbox. Connect GitHub to get started.",
+          "云端智能体在安全沙盒中使用仓库克隆进行工作。连接 GitHub 即可开始。"
+        ],
+        [
+          "Cloud agents require a single-root workspace. All folders must belong to the same Git repository.",
+          "云端智能体需要单根工作区。所有文件夹必须属于同一个 Git 仓库。"
+        ],
+        [
+          "Cloud Agents require access to your GitHub/GitLab account",
+          "云端智能体需要访问您的 GitHub/GitLab 账户"
+        ],
+        [
+          "The Cursor app needs to be installed on your repository to use Cloud Agents.",
+          "要使用云端智能体，需要在仓库中安装 Cursor 应用。"
+        ],
+        [
+          "Cloud Agents are not supported for public repositories",
+          "公共仓库不支持云端智能体"
+        ],
+        [
+          "Cloud Agents are not supported for public repositories for which you are not a collaborator.",
+          "对于您不是协作者的公共仓库，不支持云端智能体。"
+        ],
+        [
+          "The cloud agent requires a Git repository. Please initialize Git in this repository.",
+          "云端智能体需要 Git 仓库。请先在此仓库中初始化 Git。"
+        ],
+        [
+          "The cloud agent requires the workspace to be opened at the Git repository root. Please open the root folder of your Git repository instead of a subfolder.",
+          "云端智能体要求在 Git 仓库根目录打开工作区。请打开仓库根文件夹，而不是子文件夹。"
+        ],
+        [
+          "The cloud agent requires the Git repository to be hosted on GitHub/GitLab. Please add a remote to your Git repository and try again.",
+          "云端智能体要求 Git 仓库托管在 GitHub 或 GitLab。请添加远程仓库后重试。"
+        ],
+        [
+          "Cannot send a follow-up because this Cloud Agent has expired.",
+          "此云端智能体已过期，无法发送后续消息。"
+        ],
+        [
+          "Fork is not available for Cloud Agent chats.",
+          "云端智能体对话不支持复刻。"
+        ],
+        [
+          "Max mode is required for cloud agents.",
+          "云端智能体需要 Max 模式。"
+        ],
+        [
+          "Max Mode required",
+          "需要 Max 模式"
+        ],
+        [
+          "Enable MAX Mode",
+          "启用 MAX 模式"
+        ],
+        [
+          "Loading Cloud Agents settings",
+          "正在加载云端智能体设置"
+        ],
+        [
+          "Cloud Agent Service Status",
+          "云端智能体服务状态"
+        ],
+        [
+          "Cloud Agents Issue",
+          "云端智能体问题"
+        ],
+        [
+          "Ask follow-ups to the Cloud Agent...",
+          "向云端智能体发送后续消息..."
+        ],
+        [
+          "Cloud agent submit failed",
+          "云端智能体提交失败"
+        ],
+        [
+          "Cloud submission failed. Please try again.",
+          "云端提交失败。请重试。"
+        ],
+        [
+          "Couldn't continue in cloud. Try again.",
+          "无法在云端继续。请重试。"
+        ],
+        [
+          "Retry cloud agent request",
+          "重试云端智能体请求"
+        ],
+        [
+          "Archive cloud agent",
+          "归档云端智能体"
+        ],
+        [
+          "Fetching cloud agent data",
+          "正在获取云端智能体数据"
+        ],
+        [
+          "Loading cloud agent data...",
+          "正在加载云端智能体数据..."
+        ],
+        [
+          "Loading and listening to cloud agent",
+          "正在加载并监听云端智能体"
+        ],
+        [
+          "Scanning cloud agents",
+          "正在扫描云端智能体"
+        ],
+        [
+          "GitHub connected. Cloud Agent setup is refreshing.",
+          "已连接 GitHub。正在刷新云端智能体设置。"
+        ],
+        [
+          "GitHub app access updated. Cloud Agent setup is refreshing.",
+          "GitHub 应用权限已更新。正在刷新云端智能体设置。"
+        ],
+        [
+          "Your team admin can switch to 'Privacy Mode' to use cloud agents.",
+          "团队管理员可以切换到「隐私模式」以使用云端智能体。"
+        ],
+        [
+          "Cloud agent repository is disabled outside Glass",
+          "Glass 之外已禁用云端智能体仓库"
+        ],
+        [
+          "Adding a local agent to a cloud project requires Remote Control",
+          "将本地智能体添加到云端项目需要远程控制"
+        ],
+        [
+          "Cloud agents",
+          "云端智能体"
+        ],
+        [
+          "Set up or troubleshoot a Cursor Cloud Agent environment.",
+          "设置或排查 Cursor 云端智能体环境。"
+        ],
+        [
+          "Create Cloud Automation",
+          "创建云端自动化"
+        ],
+        [
+          "Could not create a Cloud Automation",
+          "无法创建云端自动化"
+        ],
+        [
+          "View Automation",
+          "查看自动化"
+        ],
+        [
+          "Cloud Automations",
+          "云端自动化"
+        ],
+        [
+          "Cloud automations run agents from a variety of environment triggers or on a scheduled basis",
+          "云端自动化可根据环境触发器或按计划运行智能体"
+        ],
+        [
+          "Couldn't list automations",
+          "无法列出自动化"
+        ],
+        [
+          "Couldn't fetch automation",
+          "无法获取自动化"
+        ],
+        [
+          "Couldn't create automation",
+          "无法创建自动化"
+        ],
+        [
+          "Couldn't update automation",
+          "无法更新自动化"
+        ],
+        [
+          "Couldn't open automation",
+          "无法打开自动化"
+        ],
+        [
+          "Select an automation",
+          "选择自动化"
+        ],
+        [
+          "More automation templates",
+          "更多自动化模板"
+        ],
+        [
+          "Toggle automation enabled state",
+          "切换自动化启用状态"
+        ],
+        [
+          "Everyone on your team can view this automation",
+          "团队中的所有人都可以查看此自动化"
+        ],
+        [
+          "Everyone on your team can view and edit this automation",
+          "团队中的所有人都可以查看并编辑此自动化"
+        ],
+        [
+          "This automation is managed from code. Change sharing in config-as-code.",
+          "此自动化由代码管理。请在配置即代码中更改共享设置。"
+        ],
+        [
+          "Service account automations cannot be private",
+          "服务账户自动化不能设为私有"
+        ],
+        [
+          "Automations are not available until privacy mode is reconciled to a storage-eligible setting.",
+          "在隐私模式调整为允许存储之前，自动化不可用。"
+        ],
+        [
+          "Automations use Cloud Agents, which require us to give agents access to your codebase. This is not compatible with Legacy Privacy Mode.",
+          "自动化使用云端智能体，需要允许智能体访问代码库。这与旧版隐私模式不兼容。"
+        ],
+        [
+          "Ask a team admin to update your team's privacy setting to use automations.",
+          "请让团队管理员更新团队隐私设置，以便使用自动化。"
+        ],
+        [
+          "Cloud Automations are unavailable",
+          "云端自动化不可用"
+        ],
+        [
+          "Unable to load Automations settings",
+          "无法加载自动化设置"
+        ],
+        [
+          "Upgrade for Automations, unlimited completions, MAX Mode, and more",
+          "升级以使用自动化、无限补全、MAX 模式等功能"
+        ],
+        [
+          "Delete Scheduled Task?",
+          "删除计划任务？"
+        ],
+        [
+          "No triggers found",
+          "未找到触发器"
+        ],
+        [
+          "No Runs Yet",
+          "尚无运行"
+        ],
+        [
+          "No runs yet",
+          "尚无运行"
+        ],
+        [
+          "Unknown trigger",
+          "未知触发器"
+        ],
+        [
+          "Webhook Triggered",
+          "已由 Webhook 触发"
+        ],
+        [
+          "Search runs...",
+          "搜索运行..."
+        ],
+        [
+          "Cancel all runs",
+          "取消所有运行"
+        ],
+        [
+          "Failed to retry automation run",
+          "重试自动化运行失败"
+        ],
+        [
+          "Failed to change automation owner",
+          "更改自动化所有者失败"
+        ],
+        [
+          "Run locally in a Worktree",
+          "在工作树中本地运行"
+        ],
+        [
+          "Run this agent in a new git worktree",
+          "在新建 Git 工作树中运行此智能体"
+        ],
+        [
+          "Run this agent in a new SSH worktree",
+          "在新建 SSH 工作树中运行此智能体"
+        ],
+        [
+          "Worktree creation failed",
+          "创建工作树失败"
+        ],
+        [
+          "Worktree not found",
+          "未找到工作树"
+        ],
+        [
+          "Failed to set up worktree.",
+          "设置工作树失败。"
+        ],
+        [
+          "Worktree setup script failed",
+          "工作树设置脚本失败"
+        ],
+        [
+          "Worktree chats require a single-root workspace. Remove additional workspace folders or open a single-folder workspace.",
+          "工作树对话需要单根工作区。请移除多余的工作区文件夹，或打开单文件夹工作区。"
+        ],
+        [
+          "Worktree feature not available, blocking submission",
+          "工作树功能不可用，已阻止提交"
+        ],
+        [
+          "This agent will go back to the worktree",
+          "此智能体将回到工作树"
+        ],
+        [
+          "Undo all applied worktree changes",
+          "撤销所有已应用的工作树更改"
+        ],
+        [
+          "Undo all applied changes. This agent will go back to the worktree.",
+          "撤销所有已应用的更改。此智能体将回到工作树。"
+        ],
+        [
+          "Copy worktree path",
+          "复制工作树路径"
+        ],
+        [
+          "Open terminal in worktree",
+          "在工作树中打开终端"
+        ],
+        [
+          "Open Terminal in Worktree",
+          "在工作树中打开终端"
+        ],
+        [
+          "Open new window in worktree",
+          "在工作树中打开新窗口"
+        ],
+        [
+          "No worktree to open PR",
+          "没有可用于打开 PR 的工作树"
+        ],
+        [
+          "No changes detected in the worktree.",
+          "工作树中未检测到更改。"
+        ],
+        [
+          "Failed to apply worktree to current branch",
+          "无法将工作树应用到当前分支"
+        ],
+        [
+          "Multiple worktrees detected in this repo",
+          "此仓库中检测到多个工作树"
+        ],
+        [
+          "the branch is checked out in another git worktree",
+          "该分支已在另一个 Git 工作树中检出"
+        ],
+        [
+          "Maximum worktree count",
+          "最大工作树数量"
+        ],
+        [
+          "Maximum retained Cursor-managed worktrees",
+          "保留的 Cursor 管理工作树数量上限"
+        ],
+        [
+          "Maximum aggregate worktree size",
+          "工作树总大小上限"
+        ],
+        [
+          "Maximum total worktree size in gigabytes",
+          "工作树总大小上限（GB）"
+        ],
+        [
+          "Cursor-managed worktrees grouped by source repository",
+          "按源仓库分组的 Cursor 管理工作树"
+        ],
+        [
+          "Worktree Cleanup",
+          "工作树清理"
+        ],
+        [
+          "Loading Canvas",
+          "正在加载画布"
+        ],
+        [
+          "Create a New Canvas",
+          "新建画布"
+        ],
+        [
+          "Hide Canvas List",
+          "隐藏画布列表"
+        ],
+        [
+          "Show Canvas List",
+          "显示画布列表"
+        ],
+        [
+          "Browse Canvases",
+          "浏览画布"
+        ],
+        [
+          "Select a Canvas from the sidebar",
+          "从侧栏选择画布"
+        ],
+        [
+          "Canvas couldn't compile",
+          "画布无法编译"
+        ],
+        [
+          "Canvas ran into an error",
+          "画布出错"
+        ],
+        [
+          "Canvas bundle is unavailable",
+          "画布包不可用"
+        ],
+        [
+          "Canvas couldn't load",
+          "画布无法加载"
+        ],
+        [
+          "Canvas open failed",
+          "打开画布失败"
+        ],
+        [
+          "Canvas could not be opened. The canvas server may still be starting — try again.",
+          "无法打开画布。画布服务可能仍在启动，请重试。"
+        ],
+        [
+          "Canvas failed to load. Retry before sharing",
+          "画布加载失败。分享前请重试"
+        ],
+        [
+          "Canvas link copied to clipboard.",
+          "画布链接已复制到剪贴板。"
+        ],
+        [
+          "Canvas unpublished. Publish again to share with your team.",
+          "画布已取消发布。请重新发布后再与团队共享。"
+        ],
+        [
+          "Canvases in your personal space can't be team-shared",
+          "个人空间中的画布无法与团队共享"
+        ],
+        [
+          "Canvas sharing requires data storage.",
+          "共享画布需要数据存储。"
+        ],
+        [
+          "Canvas tunnel is unavailable",
+          "画布隧道不可用"
+        ],
+        [
+          "Canvas preview",
+          "画布预览"
+        ],
+        [
+          "Add Skills",
+          "添加技能"
+        ],
+        [
+          "Add a plugin to this agent",
+          "为此智能体添加插件"
+        ],
+        [
+          "Add plugins",
+          "添加插件"
+        ],
+        [
+          "Add plugins to this marketplace so your team can install them.",
+          "向此市场添加插件，以便团队安装。"
+        ],
+        [
+          "Add a workspace to Cursor to see popular skills, MCPs, subagents, and commands here.",
+          "向 Cursor 添加工作区，即可在此查看热门技能、MCP、子智能体和命令。"
+        ],
+        [
+          "Turn a recorded demonstration into a reusable skill.",
+          "把录制的演示变成可复用的技能。"
+        ],
+        [
+          "Move Cursor rules and commands into Agent Skills.",
+          "将 Cursor 规则和命令迁移到智能体技能。"
+        ],
+        [
+          "Follow the attached skill",
+          "遵循附加的技能"
+        ],
+        [
+          "Enter a name for the new skill",
+          "输入新技能的名称"
+        ],
+        [
+          "Sync Skills for Cloud Agents",
+          "为云端智能体同步技能"
+        ],
+        [
+          "Syncing your skills…",
+          "正在同步技能…"
+        ],
+        [
+          "Moving your skills back to this machine…",
+          "正在把技能移回本机…"
+        ],
+        [
+          "Built-in skills cannot be published.",
+          "内置技能不能发布。"
+        ],
+        [
+          "Only your personal skills in ~/.cursor/skills can be published.",
+          "只有 ~/.cursor/skills 中的个人技能可以发布。"
+        ],
+        [
+          "Select a team before publishing a skill. Publishing adds the skill to your team marketplace.",
+          "发布技能前请选择团队。发布后会加入团队市场。"
+        ],
+        [
+          "Failed to pack the skill for publishing.",
+          "打包技能以供发布失败。"
+        ],
+        [
+          "Error parsing skill",
+          "解析技能出错"
+        ],
+        [
+          "Error loading plugin",
+          "加载插件出错"
+        ],
+        [
+          "Install MCP server",
+          "安装 MCP 服务器"
+        ],
+        [
+          "Edit MCP server",
+          "编辑 MCP 服务器"
+        ],
+        [
+          "MCP Server",
+          "MCP 服务器"
+        ],
+        [
+          "Authenticating MCP server",
+          "正在验证 MCP 服务器"
+        ],
+        [
+          "Authenticated MCP server",
+          "MCP 服务器已验证"
+        ],
+        [
+          "MCP server has stopped",
+          "MCP 服务器已停止"
+        ],
+        [
+          "Failed to open the MCP authentication flow.",
+          "无法打开 MCP 身份验证流程。"
+        ],
+        [
+          "Failed to complete the MCP authentication flow.",
+          "无法完成 MCP 身份验证流程。"
+        ],
+        [
+          "Authentication URL unavailable for this MCP server.",
+          "此 MCP 服务器没有可用的身份验证 URL。"
+        ],
+        [
+          "Authentication URL unavailable for this cloud MCP server.",
+          "此云端 MCP 服务器没有可用的身份验证 URL。"
+        ],
+        [
+          "Failed to log out of MCP server.",
+          "退出 MCP 服务器登录失败。"
+        ],
+        [
+          "Could not log out of MCP server.",
+          "无法退出 MCP 服务器登录。"
+        ],
+        [
+          "Could not open MCP server configuration.",
+          "无法打开 MCP 服务器配置。"
+        ],
+        [
+          "Failed to check MCP server status.",
+          "无法检查 MCP 服务器状态。"
+        ],
+        [
+          "Enable this MCP server before reloading it.",
+          "重新加载前请先启用此 MCP 服务器。"
+        ],
+        [
+          "No server-level description was provided for this MCP server.",
+          "此 MCP 服务器未提供服务级说明。"
+        ],
+        [
+          "List of tool names that are enabled for this server. If not specified, all tools are enabled by default.",
+          "为此服务器启用的工具名称列表。如果未指定，则默认启用全部工具。"
+        ],
+        [
+          "All MCP servers added",
+          "已添加全部 MCP 服务器"
+        ],
+        [
+          "All MCP servers from this plugin are already added.",
+          "此插件中的 MCP 服务器已全部添加。"
+        ],
+        [
+          "Failed to add MCP servers from plugin.",
+          "从插件添加 MCP 服务器失败。"
+        ],
+        [
+          "Failed to load marketplace MCP servers.",
+          "加载市场 MCP 服务器失败。"
+        ],
+        [
+          "Add a Custom MCP",
+          "添加自定义 MCP"
+        ],
+        [
+          "Add your own MCP server",
+          "添加您自己的 MCP 服务器"
+        ],
+        [
+          "Choose which source configures this MCP server.",
+          "选择配置此 MCP 服务器的来源。"
+        ],
+        [
+          "Clear All MCP Tokens",
+          "清除全部 MCP 令牌"
+        ],
+        [
+          "Available Marketplaces",
+          "可用市场"
+        ],
+        [
+          "Let any team member publish plugins to this marketplace. When off, only team admins can publish.",
+          "允许任何团队成员向此市场发布插件。关闭后仅团队管理员可以发布。"
+        ],
+        [
+          "Run all commands without approval or sandboxing",
+          "无需批准或沙盒即可运行所有命令"
+        ],
+        [
+          "Allowlist (with Sandbox)",
+          "允许列表（含沙盒）"
+        ],
+        [
+          "Auto-review (with Sandbox)",
+          "自动审查（含沙盒）"
+        ],
+        [
+          "Tools will auto-run in a sandbox if possible, otherwise respect the allowlist or ask for approval",
+          "工具会尽可能在沙盒中自动运行，否则遵循允许列表或请求批准"
+        ],
+        [
+          "Automatically run operations that Auto-review classifies as safe, using sandboxing when possible",
+          "自动运行自动审查判定为安全的操作，并尽可能使用沙盒"
+        ],
+        [
+          "Many commands will run automatically inside the sandbox, and you can also allowlist other actions.",
+          "许多命令会在沙盒内自动运行，您也可以把其他操作加入允许列表。"
+        ],
+        [
+          "Sandboxed network access is disabled by your admin.",
+          "管理员已禁用沙盒网络访问。"
+        ],
+        [
+          "Sandboxing is disabled by your admin.",
+          "管理员已禁用沙盒。"
+        ],
+        [
+          "Allow network access",
+          "允许网络访问"
+        ],
+        [
+          "Always Run",
+          "始终运行"
+        ],
+        [
+          "Always run",
+          "始终运行"
+        ],
+        [
+          "Subagent model overrides will only be used in Max Mode",
+          "子智能体模型覆盖仅在 Max 模式中生效"
+        ],
+        [
+          "Set Spend Limit",
+          "设置消费限额"
+        ],
+        [
+          "Set a Monthly Spend Limit",
+          "设置每月消费限额"
+        ],
+        [
+          "Usage Pricing Required",
+          "需要按量计费"
+        ],
+        [
+          "The amount needs to be a valid number",
+          "金额必须是有效数字"
+        ],
+        [
+          "Open Agent",
+          "打开智能体"
+        ],
+        [
+          "No agents yet",
+          "还没有智能体"
+        ],
+        [
+          "No Active Agent Conversation",
+          "没有进行中的智能体对话"
+        ],
+        [
+          "Agent connection lost",
+          "智能体连接已断开"
+        ],
+        [
+          "Agent blocked",
+          "智能体已阻止"
+        ],
+        [
+          "Agent is blocked",
+          "智能体已被阻止"
+        ],
+        [
+          "Continue Interrupted Agents",
+          "继续被中断的智能体"
+        ],
+        [
+          "Automatically resume working on agents and their subagents after a reload or restart",
+          "重新加载或重启后自动继续处理智能体及其子智能体"
+        ],
+        [
+          "Suggest a follow-up for the Agent",
+          "为智能体建议后续消息"
+        ],
+        [
+          "Fix in Agent",
+          "在智能体中修复"
+        ],
+        [
+          "Fix with Agent",
+          "用智能体修复"
+        ],
+        [
+          "Find with Agent",
+          "用智能体查找"
+        ],
+        [
+          "Build in Parallel",
+          "并行构建"
+        ],
+        [
+          "Use Multiple Models",
+          "使用多个模型"
+        ],
+        [
+          "Show all models…",
+          "显示全部模型…"
+        ],
+        [
+          "Choose a Different Model",
+          "选择其他模型"
+        ],
+        [
+          "Plan, Build, / for skills, @ for context",
+          "计划、构建，/ 调用技能，@ 添加上下文"
+        ],
+        [
+          "View Plan",
+          "查看计划"
+        ],
+        [
+          "Review changes",
+          "查看更改"
+        ],
+        [
+          "Loading chat",
+          "正在加载对话"
+        ],
+        [
+          "Loading changes",
+          "正在加载更改"
+        ],
+        [
+          "Start New Chat",
+          "开始新对话"
+        ],
+        [
+          "Import Chat",
+          "导入对话"
+        ],
+        [
+          "Close Chat Tab",
+          "关闭对话标签"
+        ],
+        [
+          "Share Transcript",
+          "分享对话记录"
+        ],
+        [
+          "Find in Chat",
+          "在对话中查找"
+        ],
+        [
+          "Find Next in Chat",
+          "查找下一处"
+        ],
+        [
+          "Find Previous in Chat",
+          "查找上一处"
+        ],
+        [
+          "Close Find in Chat",
+          "关闭对话内查找"
+        ],
+        [
+          "Chat history",
+          "对话历史"
+        ],
+        [
+          "Chat Too Old",
+          "对话过旧"
+        ],
+        [
+          "This chat was created in an older version of Cursor and is no longer supported. Please start a new chat.",
+          "此对话由旧版 Cursor 创建，已不再支持。请开始新对话。"
+        ],
+        [
+          "Conversation Corrupted",
+          "对话已损坏"
+        ],
+        [
+          "This conversation has corrupted data. You can view and export it, but new messages cannot be sent. Please start a new conversation to continue.",
+          "此对话数据已损坏。您可以查看和导出，但无法发送新消息。请开始新对话以继续。"
+        ],
+        [
+          "Archive all chats older than this one",
+          "归档比此对话更早的全部对话"
+        ],
+        [
+          "Later messages in this chat will be removed. File changes after this message can be reverted so they match, or kept as they are.",
+          "此消息之后的内容将被移除。之后的文件更改可以还原为一致状态，也可以保留现状。"
+        ],
+        [
+          "Revert files to this message?",
+          "将文件还原到此消息？"
+        ],
+        [
+          "Revert Files",
+          "还原文件"
+        ],
+        [
+          "Remove From Queue",
+          "从队列移除"
+        ],
+        [
+          "Manually Sent Messages from Queue",
+          "从队列手动发送的消息"
+        ],
+        [
+          "Choose the default behavior of messages sent manually from the queue while Agent is streaming",
+          "选择智能体输出时，从队列手动发送消息的默认行为"
+        ],
+        [
+          "Steering sends new messages to Agent while it works, without stopping it. Open Settings to turn it on.",
+          "引导会在智能体工作时发送新消息，而不会停止它。打开设置即可启用。"
+        ],
+        [
+          "Allow agent to switch to modes like Plan or Debug without asking. When off, Cursor asks first, but skips if unanswered within 15 seconds.",
+          "允许智能体在不询问的情况下切换到计划或调试等模式。关闭后，Cursor 会先询问，若 15 秒内未回复则跳过。"
+        ],
+        [
+          "Take control",
+          "接管"
+        ],
+        [
+          "Start voice chat",
+          "开始语音对话"
+        ],
+        [
+          "Voice call",
+          "语音通话"
+        ],
+        [
+          "Could not start the voice session.",
+          "无法开始语音会话。"
+        ],
+        [
+          "Speech-to-text is not supported in Glass.",
+          "Glass 不支持语音转文字。"
+        ],
+        [
+          "Text-to-speech is not supported in Glass.",
+          "Glass 不支持文字转语音。"
+        ],
+        [
+          "Choose a voice",
+          "选择语音"
+        ],
+        [
+          "Debugging is not supported in Glass.",
+          "Glass 不支持调试。"
+        ],
+        [
+          "Checkout Branch",
+          "检出分支"
+        ],
+        [
+          "Stay on Current Branch",
+          "留在当前分支"
+        ],
+        [
+          "Checking out branch",
+          "正在检出分支"
+        ],
+        [
+          "Checked out branch",
+          "已检出分支"
+        ],
+        [
+          "Checkout branch locally",
+          "在本地检出分支"
+        ],
+        [
+          "Checkout branch and convert agent to local mode",
+          "检出分支并将智能体转为本地模式"
+        ],
+        [
+          "Checkout & Move to Local",
+          "检出并转到本地"
+        ],
+        [
+          "Cancel the checkout operation",
+          "取消检出操作"
+        ],
+        [
+          "Permanently discard your current changes before switching branches",
+          "切换分支前永久丢弃当前更改"
+        ],
+        [
+          "You have uncommitted changes on your current branch. How would you like to handle them before switching?",
+          "当前分支有未提交的更改。切换前希望如何处理？"
+        ],
+        [
+          "Stash changes",
+          "贮藏更改"
+        ],
+        [
+          "Stash Changes",
+          "贮藏更改"
+        ],
+        [
+          "Stashing changes...",
+          "正在贮藏更改..."
+        ],
+        [
+          "Save changes to a stash and restore them later",
+          "把更改保存到贮藏区，稍后恢复"
+        ],
+        [
+          "Commit Changes",
+          "提交更改"
+        ],
+        [
+          "Create a checkpoint commit with your current changes",
+          "用当前更改创建检查点提交"
+        ],
+        [
+          "Create and initialize git repo",
+          "创建并初始化 Git 仓库"
+        ],
+        [
+          "Create Draft PR",
+          "创建草稿 PR"
+        ],
+        [
+          "Create Pull Request",
+          "创建拉取请求"
+        ],
+        [
+          "Pull requests",
+          "拉取请求"
+        ],
+        [
+          "Opened pull request page",
+          "已打开拉取请求页面"
+        ],
+        [
+          "Copied pull request URL to clipboard",
+          "已将拉取请求 URL 复制到剪贴板"
+        ],
+        [
+          "This pull request cannot be merged",
+          "此拉取请求无法合并"
+        ],
+        [
+          "Cannot be merged",
+          "无法合并"
+        ],
+        [
+          "PR approved",
+          "PR 已批准"
+        ],
+        [
+          "Changes requested",
+          "已请求更改"
+        ],
+        [
+          "Mark as Ready",
+          "标记为就绪"
+        ],
+        [
+          "Close PR",
+          "关闭 PR"
+        ],
+        [
+          "Squash & Merge",
+          "压缩合并"
+        ],
+        [
+          "Rebase Merge",
+          "变基合并"
+        ],
+        [
+          "Merge manually",
+          "手动合并"
+        ],
+        [
+          "Merge status pending",
+          "合并状态待定"
+        ],
+        [
+          "Merge status unavailable",
+          "合并状态不可用"
+        ],
+        [
+          "Allow Agents on My PRs",
+          "允许智能体处理我的 PR"
+        ],
+        [
+          "Allow PR Approval",
+          "允许批准 PR"
+        ],
+        [
+          "Review Code with Bugbot",
+          "用 Bugbot 审查代码"
+        ],
+        [
+          "Open a folder to run Bugbot review.",
+          "打开文件夹以运行 Bugbot 审查。"
+        ],
+        [
+          "Automatically review pull requests (PRs) for bugs and issues.",
+          "自动审查拉取请求中的缺陷和问题。"
+        ],
+        [
+          "Automatically review and scan code for security-related bugs, issues, and vulnerabilities.",
+          "自动审查并扫描代码中的安全缺陷、问题和漏洞。"
+        ],
+        [
+          "Git Required",
+          "需要 Git"
+        ],
+        [
+          "Your organization has configured repository access rules that require Git to be installed. Please install Git and restart Cursor to continue using the agent.",
+          "您的组织配置了仓库访问规则，需要安装 Git。请安装 Git 并重启 Cursor 后继续使用智能体。"
+        ],
+        [
+          "Connect your Repos to Cursor",
+          "把仓库连接到 Cursor"
+        ],
+        [
+          "Grant repository access",
+          "授予仓库访问权限"
+        ],
+        [
+          "Connect repo",
+          "连接仓库"
+        ],
+        [
+          "Incorrect Branch",
+          "分支不正确"
+        ],
+        [
+          "Copy Remote URL",
+          "复制远程 URL"
+        ],
+        [
+          "Copied branch name to clipboard",
+          "已将分支名复制到剪贴板"
+        ],
+        [
+          "Copied remote URL to clipboard",
+          "已将远程 URL 复制到剪贴板"
+        ],
+        [
+          "Failed to generate a branch name for the PR. Please try again.",
+          "无法为 PR 生成分支名。请重试。"
+        ],
+        [
+          "Cursor will stop tracking the pull request on this branch for this agent. The PR itself is not affected on GitHub.",
+          "Cursor 将停止跟踪此智能体在该分支上的拉取请求。GitHub 上的 PR 本身不受影响。"
+        ],
+        [
+          "GitHub connected, but Cursor could not open repository access setup. Please try granting repo access again.",
+          "已连接 GitHub，但 Cursor 无法打开仓库访问设置。请重新授予仓库访问权限。"
+        ],
+        [
+          "Cursor still needs GitHub app access to this repository. Finish setup in your browser.",
+          "Cursor 仍需要此仓库的 GitHub 应用访问权限。请在浏览器中完成设置。"
+        ],
+        [
+          "No results",
+          "无结果"
+        ],
+        [
+          "Copy link",
+          "复制链接"
+        ],
+        [
+          "Add Workspace",
+          "添加工作区"
+        ],
+        [
+          "Continue Anyway",
+          "仍然继续"
+        ],
+        [
+          "Clear override",
+          "清除覆盖"
+        ],
+        [
+          "Open in IDE",
+          "在 IDE 中打开"
+        ],
+        [
+          "Open in Web",
+          "在 Web 中打开"
+        ],
+        [
+          "Open in browser",
+          "在浏览器中打开"
+        ],
+        [
+          "View on Web",
+          "在 Web 中查看"
+        ],
+        [
+          "Zoom out",
+          "缩小"
+        ],
+        [
+          "Zoom in",
+          "放大"
+        ],
+        [
+          "Add to Home",
+          "添加到主页"
+        ],
+        [
+          "Add Secrets",
+          "添加密钥"
+        ],
+        [
+          "Add Environment",
+          "添加环境"
+        ],
+        [
+          "Save Environment",
+          "保存环境"
+        ],
+        [
+          "Open environment.json",
+          "打开 environment.json"
+        ],
+        [
+          "Open Virtual Machine",
+          "打开虚拟机"
+        ],
+        [
+          "My Machines",
+          "我的机器"
+        ],
+        [
+          "Search Remote Machines…",
+          "搜索远程机器…"
+        ],
+        [
+          "Screenshot region",
+          "截取区域"
+        ],
+        [
+          "Scroll to bottom",
+          "滚动到底部"
+        ],
+        [
+          "Try Again",
+          "重试"
+        ],
+        [
+          "Try different filters",
+          "试试其他筛选条件"
+        ],
+        [
+          "View Details",
+          "查看详情"
+        ],
+        [
+          "More options",
+          "更多选项"
+        ],
+        [
+          "Clear search",
+          "清除搜索"
+        ],
+        [
+          "New Project",
+          "新建项目"
+        ],
+        [
+          "Delete Task",
+          "删除任务"
+        ],
+        [
+          "Could not delete task",
+          "无法删除任务"
+        ],
+        [
+          "Could not start task",
+          "无法启动任务"
+        ],
+        [
+          "Enter API key",
+          "输入 API 密钥"
+        ],
+        [
+          "Enter your API key",
+          "输入您的 API 密钥"
+        ],
+        [
+          "Data Sharing",
+          "数据共享"
+        ],
+        [
+          "Help Improve Cursor",
+          "帮助改进 Cursor"
+        ],
+        [
+          "Team Access",
+          "团队访问"
+        ],
+        [
+          "All team members can view",
+          "所有团队成员可查看"
+        ],
+        [
+          "All team members can access",
+          "所有团队成员可访问"
+        ],
+        [
+          "Only you can access",
+          "仅您可访问"
+        ],
+        [
+          "Invite by email",
+          "通过电子邮件邀请"
+        ],
+        [
+          "Change owner",
+          "更改所有者"
+        ],
+        [
+          "Make team editable",
+          "允许团队编辑"
+        ],
+        [
+          "Disabled by admin",
+          "已被管理员禁用"
+        ],
+        [
+          "Read Access",
+          "读取权限"
+        ],
+        [
+          "Read Allowlist",
+          "读取允许列表"
+        ],
+        [
+          "Public Profile",
+          "公开个人资料"
+        ],
+        [
+          "Profile Image",
+          "头像"
+        ],
+        [
+          "Name shown on the public profile page",
+          "公开个人资料页上显示的名称"
+        ],
+        [
+          "Account email shown on the profile page",
+          "个人资料页上显示的账户邮箱"
+        ],
+        [
+          "First Name",
+          "名"
+        ],
+        [
+          "Last Name",
+          "姓"
+        ],
+        [
+          "Claim a handle for your public profile page",
+          "为公开个人资料页设置用户名"
+        ],
+        [
+          "Create your own themes, tweak the vibe, and import your favorites",
+          "创建自己的主题、调整风格并导入收藏"
+        ],
+        [
+          "Manage Themes",
+          "管理主题"
+        ],
+        [
+          "Cursor Dark Colorblind",
+          "Cursor 深色（色盲友好）"
+        ],
+        [
+          "Cursor Light Colorblind",
+          "Cursor 浅色（色盲友好）"
+        ],
+        [
+          "Cursor Light High Contrast",
+          "Cursor 浅色高对比度"
+        ],
+        [
+          "Follow System Color Scheme",
+          "跟随系统配色"
+        ],
+        [
+          "Show notifications for less urgent issues",
+          "显示不太紧急的问题通知"
+        ],
+        [
+          "Show notifications for less urgent issues. Errors and informational notifications are always shown.",
+          "显示不太紧急的问题通知。错误和信息通知始终显示。"
+        ],
+        [
+          "See warnings and tips that you’ve hidden",
+          "查看您已隐藏的警告和提示"
+        ],
+        [
+          "Report Bug",
+          "报告缺陷"
+        ],
+        [
+          "Restore defaults",
+          "恢复默认值"
+        ],
+        [
+          "Restore edits to the latest checkpoint",
+          "将编辑恢复到最新检查点"
+        ],
+        [
+          "Undo Apply",
+          "撤销应用"
+        ],
+        [
+          "Keep Files",
+          "保留文件"
+        ],
+        [
+          "Keep Editing",
+          "继续编辑"
+        ],
+        [
+          "Discard Changes?",
+          "放弃更改？"
+        ],
+        [
+          "Save and Enable",
+          "保存并启用"
+        ],
+        [
+          "Save and Disable",
+          "保存并禁用"
+        ],
+        [
+          "Confirm Action",
+          "确认操作"
+        ],
+        [
+          "Are you sure you want to perform this action?",
+          "确定要执行此操作吗？"
+        ],
+        [
+          "This action cannot be undone. Proceed anyway?",
+          "此操作无法撤销。仍要继续吗？"
+        ],
+        [
+          "Would you like to remember this preference for future sessions?",
+          "要记住此偏好以用于以后的会话吗？"
+        ],
+        [
+          "Remember Preference",
+          "记住偏好"
+        ],
+        [
+          "Unknown error",
+          "未知错误"
+        ],
+        [
+          "An error occurred while processing your request.",
+          "处理请求时出错。"
+        ],
+        [
+          "Failed to save",
+          "保存失败"
+        ],
+        [
+          "Copied to clipboard",
+          "已复制到剪贴板"
+        ],
+        [
+          "Copied path to clipboard",
+          "已将路径复制到剪贴板"
+        ],
+        [
+          "Message copied to clipboard",
+          "消息已复制到剪贴板"
+        ],
+        [
+          "Request ID copied to clipboard",
+          "请求 ID 已复制到剪贴板"
+        ],
+        [
+          "No request ID found",
+          "未找到请求 ID"
+        ],
+        [
+          "No matching commands",
+          "没有匹配的命令"
+        ],
+        [
+          "No projects found",
+          "未找到项目"
+        ],
+        [
+          "No workspace folder found",
+          "未找到工作区文件夹"
+        ],
+        [
+          "Workspace Not Found",
+          "未找到工作区"
+        ],
+        [
+          "Open a different workspace",
+          "打开其他工作区"
+        ],
+        [
+          "Open Source Control",
+          "打开源代码管理"
+        ],
+        [
+          "Open in New Window",
+          "在新窗口中打开"
+        ],
+        [
+          "Open settings",
+          "打开设置"
+        ],
+        [
+          "Open config",
+          "打开配置"
+        ],
+        [
+          "Open Link",
+          "打开链接"
+        ],
+        [
+          "Open full page",
+          "打开完整页面"
+        ],
+        [
+          "Show More",
+          "显示更多"
+        ],
+        [
+          "Show History",
+          "显示历史记录"
+        ],
+        [
+          "Show Code",
+          "显示代码"
+        ],
+        [
+          "Show Output",
+          "显示输出"
+        ],
+        [
+          "Copy JSON",
+          "复制 JSON"
+        ],
+        [
+          "Match Case",
+          "匹配大小写"
+        ],
+        [
+          "Match Whole Word",
+          "全词匹配"
+        ],
+        [
+          "Use Regular Expression",
+          "使用正则表达式"
+        ],
+        [
+          "Preserve Case",
+          "保留大小写"
+        ],
+        [
+          "Replace all",
+          "全部替换"
+        ],
+        [
+          "Replace all in file",
+          "替换文件中的全部内容"
+        ],
+        [
+          "Clear All",
+          "全部清除"
+        ],
+        [
+          "Clear History",
+          "清除历史记录"
+        ],
+        [
+          "In Progress",
+          "进行中"
+        ],
+        [
+          "Needs authentication",
+          "需要身份验证"
+        ],
+        [
+          "Can't connect to server",
+          "无法连接到服务器"
+        ],
+        [
+          "Connection stalled",
+          "连接停滞"
+        ],
+        [
+          "Disconnected",
+          "已断开连接"
+        ],
+        [
+          "Already added",
+          "已添加"
+        ],
+        [
+          "Taking a little while...",
+          "还需要一点时间..."
+        ],
+        [
+          "Waiting for upload...",
+          "正在等待上传..."
+        ],
+        [
+          "Install Now",
+          "立即安装"
+        ],
+        [
+          "Continue Update",
+          "继续更新"
+        ],
+        [
+          "Disabled (Reload Required)",
+          "已禁用（需要重新加载）"
+        ],
+        [
+          "Download Cursor Private Inference",
+          "下载 Cursor 私有推理"
+        ],
+        [
+          "Run Private Inference in a separate local process to isolate it from remote workspace activity. Reload Cursor after changing this setting.",
+          "在单独的本地进程中运行私有推理，以便与远程工作区活动隔离。更改此设置后请重新加载 Cursor。"
+        ],
+        [
+          "Dedicated Agent Runtime",
+          "专用智能体运行时"
+        ],
+        [
+          "Default Mode",
+          "默认模式"
+        ],
+        [
+          "Default On",
+          "默认开启"
+        ],
+        [
+          "Default Off",
+          "默认关闭"
+        ],
+        [
+          "Side chats",
+          "侧边对话"
+        ],
+        [
+          "Add to Side Chat",
+          "添加到侧边对话"
+        ],
+        [
+          "Post to Slack",
+          "发布到 Slack"
+        ],
+        [
+          "New message in channel",
+          "频道中的新消息"
+        ],
+        [
+          "Channel Name",
+          "频道名称"
+        ],
+        [
+          "Channel name...",
+          "频道名称..."
+        ],
+        [
+          "Channel created",
+          "已创建频道"
+        ],
+        [
+          "Get Grok Bot",
+          "获取 Grok Bot"
+        ],
+        [
+          "Grok Bot can do this for you",
+          "Grok Bot 可以帮您完成"
+        ],
+        [
+          "File reading blocked by hook",
+          "读取文件被钩子阻止"
+        ],
+        [
+          "Submission blocked by hook",
+          "提交被钩子阻止"
+        ],
+        [
+          "Failed to render Mermaid chart",
+          "无法渲染 Mermaid 图表"
+        ],
+        [
+          "Mermaid Syntax Error",
+          "Mermaid 语法错误"
+        ],
+        [
+          "Loading diagram...",
+          "正在加载图表..."
+        ],
+        [
+          "Rendering diagram...",
+          "正在渲染图表..."
+        ],
+        [
+          "View diagram source",
+          "查看图表源码"
+        ],
+        [
+          "Failed to load diff",
+          "无法加载差异"
+        ],
+        [
+          "Failed to load artifact",
+          "无法加载产物"
+        ],
+        [
+          "Timed out loading context files",
+          "加载上下文文件超时"
+        ],
+        [
+          "Composer not found",
+          "未找到 Composer"
+        ],
+        [
+          "Open Composer Settings",
+          "打开 Composer 设置"
+        ],
+        [
+          "Several agent tasks are competing for system resources. Run fewer in parallel to keep your system responsive.",
+          "多个智能体任务正在争用系统资源。请减少并行数量以保持系统响应。"
+        ],
+        [
+          "Enable auto-keep to have changes be updated automatically. You can also do this later in Cursor Settings.",
+          "启用自动保留后，更改会自动更新。您也可以稍后在 Cursor 设置中开启。"
+        ],
+        [
+          "Automatically format files when Agent finishes",
+          "智能体完成后自动格式化文件"
+        ],
+        [
+          "Automatically index repositories locally to speed up Grep searches. Reload the window after changing this setting.",
+          "在本地自动索引仓库以加快 Grep 搜索。更改此设置后请重新加载窗口。"
+        ],
+        [
+          "Apply .cursorignore files to subdirectories",
+          "将 .cursorignore 应用到子目录"
+        ],
+        [
+          "Bring over your chats, and send a follow-up to fork it. Your plugins and skills are synced by default.",
+          "带上您的对话并发送后续消息来复刻它。插件和技能默认会同步。"
+        ],
+        [
+          "Cursor syncs your local skills so they can be used with Cloud Agents. Turn this off to disable syncing.",
+          "Cursor 会同步本地技能，以便云端智能体使用。关闭此项可停止同步。"
+        ],
+        [
+          "You don't have access to this agent's machine. The conversation and pull request are still available.",
+          "您无权访问此智能体的机器。对话和拉取请求仍然可用。"
+        ],
+        [
+          "Plugin skills selected for Cloud can't run in this environment. Remove them or switch back to Cloud.",
+          "为云端选择的插件技能无法在此环境运行。请移除它们，或切换回云端。"
+        ],
+        [
+          "Docker container configuration has changed. The container needs to be rebuilt for changes to take effect.",
+          "Docker 容器配置已更改。需要重新构建容器后更改才会生效。"
+        ],
+        [
+          "Dockerfile not in remote",
+          "远程中没有 Dockerfile"
+        ],
+        [
+          "Snapshot saved.",
+          "快照已保存。"
+        ],
+        [
+          "Capture Snapshot",
+          "捕获快照"
+        ],
+        [
+          "Secret saved",
+          "密钥已保存"
+        ],
+        [
+          "A secret with this name already exists in this scope.",
+          "此范围内已存在同名密钥。"
+        ],
+        [
+          "Client Secret",
+          "客户端密钥"
+        ],
+        [
+          "Cloud Agent Approval Banners While Focused",
+          "聚焦时显示云端智能体批准提示"
+        ],
+        [
+          "Also show the approval banner while Cursor is focused; the request card in the agent conversation always shows",
+          "Cursor 处于聚焦状态时也显示批准提示；智能体对话中的请求卡片始终显示"
+        ],
+        [
+          "Control which network requests are allowed when commands run in the sandbox. Edit allowed/denied domains in sandbox.json in your workspace.",
+          "控制命令在沙盒中运行时允许哪些网络请求。请在工作区的 sandbox.json 中编辑允许或拒绝的域名。"
+        ],
+        [
+          "Search skills, context, chats",
+          "搜索技能、上下文、对话"
+        ],
+        [
+          "Needs attention",
+          "需要关注"
+        ]
+      ]
+    },
+    {
+      "id": "settings_gap_2026_10",
+      "title": "设置页补充",
+      "entries": [
+        [
+          "Chat Width",
+          "对话宽度"
+        ],
+        [
+          "Set the maximum width of Agent conversations",
+          "设置智能体对话的最大宽度"
+        ],
+        [
+          "New Messages",
+          "新消息"
+        ],
+        [
+          "Choose the default behavior of messages sent while Agent is working",
+          "选择智能体工作时发送消息的默认行为"
+        ],
+        [
+          "Choose the default behavior of messages sent from the queue",
+          "选择从队列发送消息的默认行为"
+        ],
+        [
+          "Follow-Up Prompt Suggestions",
+          "后续提示建议"
+        ],
+        [
+          "What the queued-message Send Now action does",
+          "「立即发送」队列消息时的行为"
+        ],
+        [
+          "Use OpenAI API Key",
+          "使用 OpenAI API 密钥"
+        ],
+        [
+          "Use Azure OpenAI",
+          "使用 Azure OpenAI"
+        ],
+        [
+          "Use Team AWS Bedrock",
+          "使用团队 AWS Bedrock"
+        ],
+        [
+          "Use AWS Bedrock",
+          "使用 AWS Bedrock"
+        ],
+        [
+          "Your team has configured AWS Bedrock access. You can use your teams Bedrock instance without any additional configuration.",
+          "您的团队已配置 AWS Bedrock 访问。您可以直接使用团队的 Bedrock 实例，无需额外配置。"
+        ],
+        [
+          "AWS region used by your team's Bedrock configuration.",
+          "团队 Bedrock 配置使用的 AWS 区域。"
+        ],
+        [
+          "OpenAI-compatible API base URL for the local agent.",
+          "本地智能体使用的 OpenAI 兼容 API 基础 URL。"
+        ],
+        [
+          "API key used for requests to your gateway.",
+          "向您的网关发送请求时使用的 API 密钥。"
+        ],
+        [
+          "Gateway",
+          "网关"
+        ],
+        [
+          "Speed",
+          "语速"
+        ],
+        [
+          "How quickly the voice speaks in voice chats.",
+          "语音对话中的语速。"
+        ],
+        [
+          "How quickly the voice speaks in voice chats",
+          "语音对话中的语速"
+        ],
+        [
+          "Language",
+          "语言"
+        ],
+        [
+          "Language used in voice chats.",
+          "语音对话使用的语言。"
+        ],
+        [
+          "Language used in voice chats",
+          "语音对话使用的语言"
+        ],
+        [
+          "Microphone",
+          "麦克风"
+        ],
+        [
+          "Microphone used in voice chats.",
+          "语音对话使用的麦克风。"
+        ],
+        [
+          "Default voice for voice chats. Changing the voice plays a short sample.",
+          "语音对话的默认声音。更改声音时会播放一小段示例。"
+        ],
+        [
+          "Voice",
+          "语音"
+        ],
+        [
+          "Automatically register computers",
+          "自动注册计算机"
+        ],
+        [
+          "Sync Theme with IDE",
+          "与 IDE 同步主题"
+        ],
+        [
+          "Font Smoothing",
+          "字体平滑"
+        ],
+        [
+          "Use native macOS font anti-aliasing",
+          "使用 macOS 原生字体抗锯齿"
+        ],
+        [
+          "Match the active theme to your OS dark/light setting",
+          "使当前主题跟随系统的深色或浅色设置"
+        ],
+        [
+          "Keep theme and follow-system settings matched with the IDE window",
+          "使主题和跟随系统设置与 IDE 窗口保持一致"
+        ],
+        [
+          "Slack Channel",
+          "Slack 频道"
+        ],
+        [
+          "Pick a Slack channel or use DMs.",
+          "选择一个 Slack 频道，或使用私信。"
+        ],
+        [
+          "Theme Name",
+          "主题名称"
+        ],
+        [
+          "Name shown in the theme picker",
+          "主题选择器中显示的名称"
+        ],
+        [
+          "Choose whether the theme behaves like a light or dark theme",
+          "选择主题按浅色还是深色表现"
+        ],
+        [
+          "Use stronger derived contrast colors",
+          "使用更强的派生对比色"
+        ],
+        [
+          "Desktop Bridge",
+          "桌面桥接"
+        ],
+        [
+          "Allowlist Options",
+          "允许列表选项"
+        ],
+        [
+          "Show inline diff decorations in the editor",
+          "在编辑器中显示内联差异装饰"
+        ],
+        [
+          "Spend limits for team plans are managed by team admins in the dashboard",
+          "团队计划的消费限额由团队管理员在仪表板中管理"
+        ],
+        [
+          "Summarize this conversation",
+          "总结此对话"
+        ],
+        [
+          "Start a side chat for this conversation",
+          "为此对话开始侧边对话"
+        ],
+        [
+          "Off disables Self-driving for PRs owned by this account.",
+          "关闭后，此账户拥有的 PR 将禁用自动驾驶。"
+        ],
+        [
+          "Starts Self-driving when a PR opens on an enabled repository.",
+          "在已启用的仓库中打开 PR 时启动自动驾驶。"
+        ],
+        [
+          "Used when Self-driving starts automatically from account defaults.",
+          "按账户默认设置自动启动自动驾驶时使用。"
+        ],
+        [
+          "Posts Self-driving updates to Slack when there are suggestions for PRs.",
+          "当 PR 有建议时，将自动驾驶更新发布到 Slack。"
+        ],
+        [
+          "Marketplace Access",
+          "市场访问权限"
+        ],
+        [
+          "Select who can see and use plugins from this team marketplace",
+          "选择谁可以查看并使用此团队市场中的插件"
+        ],
+        [
+          "Enable Auto Refresh",
+          "启用自动刷新"
+        ],
+        [
+          "Automatically update plugins when changes are pushed to the repository",
+          "仓库有更新推送时自动更新插件"
+        ],
+        [
+          "Serve Marketplace From Cursor",
+          "由 Cursor 提供市场"
+        ],
+        [
+          "Cursor keeps a synced copy of this repository and serves plugins from it, so team members can use the marketplace without GitHub access to the source repo. Access is controlled by Marketplace Access.",
+          "Cursor 会保留此仓库的同步副本并从中提供插件，因此团队成员无需拥有源仓库的 GitHub 访问权限也能使用市场。访问权限由「市场访问权限」控制。"
+        ],
+        [
+          "Plugin Repository",
+          "插件仓库"
+        ],
+        [
+          "Fetch marketplace plugins from the GitHub repository",
+          "从 GitHub 仓库获取市场插件"
+        ],
+        [
+          "This marketplace and its access settings will be removed. The source repository won't be affected.",
+          "将移除此市场及其访问设置。源仓库不受影响。"
+        ],
+        [
+          "Remove marketplace?",
+          "移除市场？"
+        ],
+        [
+          "This marketplace will be removed from your account. The source repository won't be affected.",
+          "此市场将从您的账户中移除。源仓库不受影响。"
+        ],
+        [
+          "Allow Members to Publish",
+          "允许成员发布"
+        ],
+        [
+          "No plugins yet",
+          "还没有插件"
+        ],
+        [
+          "New MCP Configuration",
+          "新建 MCP 配置"
+        ],
+        [
+          "Creates a new MCP configuration with example servers",
+          "使用示例服务器创建新的 MCP 配置"
+        ],
+        [
+          "Placement",
+          "运行位置"
+        ],
+        [
+          "Where this server's tool calls run.",
+          "此服务器的工具调用在何处运行。"
+        ],
+        [
+          "Enable or disable individual tools.",
+          "启用或禁用各个工具。"
+        ],
+        [
+          "Payment failed",
+          "付款失败"
+        ],
+        [
+          "Please update your payment method to keep using Cursor.",
+          "请更新付款方式以继续使用 Cursor。"
+        ],
+        [
+          "Payment Method Update Required",
+          "需要更新付款方式"
+        ],
+        [
+          "Re-authorize your UPI payment method to restore automatic payments",
+          "重新授权您的 UPI 付款方式以恢复自动付款"
+        ],
+        [
+          "This will remove all browsing history entries.",
+          "这将移除所有浏览历史记录。"
+        ],
+        [
+          "This will remove all cookies. You may be signed out of websites.",
+          "这将移除所有 Cookie。您可能会从网站退出登录。"
+        ],
+        [
+          "This will clear the browser cache.",
+          "这将清除浏览器缓存。"
+        ],
+        [
+          "Clear Accepted Certificates",
+          "清除已接受的证书"
+        ],
+        [
+          "This will remove all manually accepted certificates.",
+          "这将移除所有手动接受的证书。"
+        ],
+        [
+          "Steer",
+          "引导"
+        ],
+        [
+          "Steer the agent without stopping it",
+          "引导智能体而不停止它"
+        ],
+        [
+          "Interrupt",
+          "中断"
+        ],
+        [
+          "Stop the agent and send the message",
+          "停止智能体并发送消息"
+        ],
+        [
+          "Send after Agent finishes",
+          "在智能体完成后发送"
+        ],
+        [
+          "Set a fixed amount or make on-demand usage unlimited",
+          "设置固定金额，或使按需用量不受限制"
+        ],
+        [
+          "Still running locally?",
+          "仍在本地运行？"
+        ],
+        [
+          "Move to Cloud to keep running longer without your computer open.",
+          "移到云端，这样不打开电脑也能继续运行更长时间。"
+        ],
+        [
+          "Production",
+          "生产环境"
+        ],
+        [
+          "Use production environment",
+          "使用生产环境"
+        ],
+        [
+          "Use development environment",
+          "使用开发环境"
+        ],
+        [
+          "Create a Merge Commit",
+          "创建合并提交"
+        ],
+        [
+          "All commits in each PR will be added to the base branch via a merge commit.",
+          "每个 PR 中的全部提交都会通过合并提交加入基础分支。"
+        ],
+        [
+          "Squash and Merge",
+          "压缩合并"
+        ],
+        [
+          "The entire stack will be squashed into a single commit in the base branch.",
+          "整个堆叠会被压缩成基础分支上的一个提交。"
+        ],
+        [
+          "Conflicts with base",
+          "与基础分支冲突"
+        ],
+        [
+          "Merge blocked: conflicts with base",
+          "合并被阻止：与基础分支冲突"
+        ],
+        [
+          "Status checks failing",
+          "状态检查失败"
+        ],
+        [
+          "Merge blocked: required status checks are failing",
+          "合并被阻止：必需的状态检查失败"
+        ],
+        [
+          "Checks still running",
+          "检查仍在运行"
+        ],
+        [
+          "Merge blocked: required status checks are still running",
+          "合并被阻止：必需的状态检查仍在运行"
+        ],
+        [
+          "Blocked by branch rules",
+          "被分支规则阻止"
+        ],
+        [
+          "Merging is blocked by branch protection rules",
+          "合并被分支保护规则阻止"
+        ],
+        [
+          "$20/mo",
+          "$20/月"
+        ],
+        [
+          "$20 usage credits",
+          "$20 用量额度"
+        ],
+        [
+          "$60/mo",
+          "$60/月"
+        ],
+        [
+          "$70 usage credits",
+          "$70 用量额度"
+        ],
+        [
+          "$200/mo",
+          "$200/月"
+        ],
+        [
+          "$400 usage credits",
+          "$400 用量额度"
+        ],
+        [
+          "Help improve Cursor for everyone",
+          "帮助为所有人改进 Cursor"
+        ],
+        [
+          "You’re in control of how your data is used",
+          "您可以控制自己的数据如何被使用"
+        ],
+        [
+          "I am fine with Cursor learning from my code!",
+          "我同意 Cursor 从我的代码中学习！"
+        ],
+        [
+          "I do not want to enable data sharing.",
+          "我不希望启用数据共享。"
+        ],
+        [
+          "Always Apply",
+          "始终应用"
+        ],
+        [
+          "Apply to every chat and cmd-k session",
+          "应用于每次对话和 Cmd+K 会话"
+        ],
+        [
+          "Apply Intelligently",
+          "智能应用"
+        ],
+        [
+          "When Agent decides it's relevant based on description",
+          "当智能体根据说明判断相关时应用"
+        ],
+        [
+          "Apply to Specific Files",
+          "应用于指定文件"
+        ],
+        [
+          "When file matches a specified pattern",
+          "当文件匹配指定模式时应用"
+        ],
+        [
+          "Apply Manually",
+          "手动应用"
+        ],
+        [
+          "When @-mentioned",
+          "在被 @ 提及时应用"
+        ],
+        [
+          "Turn Off Private Inference?",
+          "关闭私有推理？"
+        ],
+        [
+          "Cursor will restart. Agent requests will then use Cursor-managed models instead of the team's inference gateway.",
+          "Cursor 将重启。之后智能体请求将使用 Cursor 托管的模型，而不是团队的推理网关。"
+        ],
+        [
+          "Turn On Private Inference?",
+          "开启私有推理？"
+        ],
+        [
+          "Cursor will restart. Agent requests will then go to the team's inference gateway.",
+          "Cursor 将重启。之后智能体请求将发往团队的推理网关。"
+        ],
+        [
+          "Log out?",
+          "退出登录？"
+        ],
+        [
+          "You'll be logged out of your Cursor account on this device.",
+          "您将在此设备上退出 Cursor 账户。"
+        ],
+        [
+          "Start with a plan",
+          "先制定计划"
+        ],
+        [
+          "Align on implementation before writing code",
+          "写代码前先就实现方案达成一致"
+        ],
+        [
+          "Debug an issue",
+          "调试问题"
+        ],
+        [
+          "Find root causes and fix tricky bugs",
+          "找出根因并修复棘手的缺陷"
+        ],
+        [
+          "Create a dashboard",
+          "创建仪表板"
+        ],
+        [
+          "Visualize information in a custom interface",
+          "在自定义界面中可视化信息"
+        ],
+        [
+          "Words that send your prompt while you dictate. Voice chats ignore them.",
+          "听写时用于发送提示的词语。语音对话会忽略它们。"
+        ],
+        [
+          "Allow agent to switch to modes without asking. When off, skips if unanswered within 15 seconds.",
+          "允许智能体在不询问的情况下切换模式。关闭后，若 15 秒内未回复则跳过。"
+        ],
+        [
+          "Control whether agents can read files outside the workspace without approval.",
+          "控制智能体是否可以在未经批准的情况下读取工作区外的文件。"
+        ],
+        [
+          "File paths and glob patterns agents can read without approval.",
+          "智能体无需批准即可读取的文件路径和 glob 模式。"
+        ],
+        [
+          "Skip symlinks during discovery",
+          "发现期间跳过符号链接"
+        ],
+        [
+          "Configure HTTP compatibility for proxies and VPNs",
+          "为代理和 VPN 配置 HTTP 兼容性"
+        ],
+        [
+          "Domains required for Cursor",
+          "Cursor 所需的域名"
+        ],
+        [
+          "Check connectivity to all Cursor services",
+          "检查与所有 Cursor 服务的连接"
+        ],
+        [
+          "Prefix for new Agent branches",
+          "新建智能体分支的前缀"
+        ],
+        [
+          "Choose the model used by Explore subagent for initial research",
+          "选择探索子智能体在初步研究时使用的模型"
+        ],
+        [
+          "Use legacy terminal tool on unsupported shells",
+          "在不受支持的 shell 上使用旧版终端工具"
+        ],
+        [
+          "Automatically parse links pasted into Quick Edit",
+          "自动解析粘贴到快速编辑中的链接"
+        ],
+        [
+          "Wait indefinitely; otherwise skip prompts after 30 seconds",
+          "无限期等待；否则在 30 秒后跳过提示"
+        ],
+        [
+          "Cmd+K: Escape Focuses the Editor When You Have a Diff",
+          "Cmd+K：有差异时按 Escape 聚焦编辑器"
+        ],
+        [
+          "Show View Zone When Preview Box Is Clipped",
+          "预览框被裁切时显示视图区域"
+        ],
+        [
+          "Tracing",
+          "跟踪"
+        ],
+        [
+          "Feature Flags",
+          "功能开关"
+        ],
+        [
+          "Reset All Feature Flag Overrides",
+          "重置全部功能开关覆盖"
+        ],
+        [
+          "Local Trace Mode",
+          "本地跟踪模式"
+        ],
+        [
+          "Mirror VS Code RPCs into the DevTools Network tab and record local performance marks. Adds overhead, so leave it off unless you're debugging.",
+          "将 VS Code RPC 镜像到开发者工具的网络面板，并记录本地性能标记。这会增加开销，请仅在调试时开启。"
+        ],
+        [
+          "Continuous RPC File Recording",
+          "持续记录 RPC 文件"
+        ],
+        [
+          "RPC Log Folder",
+          "RPC 日志文件夹"
+        ],
+        [
+          "Optional folder for RPC logs (defaults to logs/exthost).",
+          "RPC 日志的可选文件夹（默认 logs/exthost）。"
+        ],
+        [
+          "React DevTools",
+          "React 开发者工具"
+        ],
+        [
+          "Load React Developer Tools so Chrome DevTools shows the Components and Profiler tabs. It slows every React commit, so it's off by default. Restarts Cursor.",
+          "加载 React 开发者工具，以便 Chrome 开发者工具显示组件和性能分析标签。它会拖慢每次 React 提交，因此默认关闭。更改后会重启 Cursor。"
+        ],
+        [
+          "React Performance Tracks",
+          "React 性能轨道"
+        ],
+        [
+          "Show React's component render tracks in the Chrome DevTools Performance panel. They cost time on every commit even when nothing is recording, so turn them on only to profile. Reloads the window.",
+          "在 Chrome 开发者工具的性能面板中显示 React 组件渲染轨道。即使没有录制也会在每次提交时产生开销，请仅在分析性能时开启。更改后会重新加载窗口。"
+        ],
+        [
+          "Report disposables that are garbage-collected without being disposed. On by default in development builds; it captures a creation stack per disposable, so turn it off when profiling.",
+          "报告未经释放就被垃圾回收的 disposable。开发版本默认开启；它会为每个 disposable 捕获创建堆栈，分析性能时请关闭。"
+        ]
+      ]
+    },
+    {
+      "id": "main_ui_gap_2026_10",
+      "title": "主界面与设置补充",
+      "entries": [
+        [
+          "Search anything",
+          "搜索任何内容"
+        ],
+        [
+          "Search Cursor Settings",
+          "搜索 Cursor 设置"
+        ],
+        [
+          "Search Extensions",
+          "搜索扩展"
+        ],
+        [
+          "Search files",
+          "搜索文件"
+        ],
+        [
+          "Search fonts",
+          "搜索字体"
+        ],
+        [
+          "Search icons...",
+          "搜索图标..."
+        ],
+        [
+          "Search keybindings...",
+          "搜索快捷键..."
+        ],
+        [
+          "Search or enter URL...",
+          "搜索或输入 URL..."
+        ],
+        [
+          "Search organizations...",
+          "搜索组织..."
+        ],
+        [
+          "Search plugins",
+          "搜索插件"
+        ],
+        [
+          "Search repositories...",
+          "搜索仓库..."
+        ],
+        [
+          "Search side chats",
+          "搜索侧边对话"
+        ],
+        [
+          "Search the marketplace",
+          "搜索市场"
+        ],
+        [
+          "Search time zones…",
+          "搜索时区…"
+        ],
+        [
+          "Search web",
+          "搜索网页"
+        ],
+        [
+          "Fuzzy search",
+          "模糊搜索"
+        ],
+        [
+          "Semantic search",
+          "语义搜索"
+        ],
+        [
+          "Find files",
+          "查找文件"
+        ],
+        [
+          "Go to Settings",
+          "前往设置"
+        ],
+        [
+          "Show Cursor in the menu bar",
+          "在菜单栏中显示 Cursor"
+        ],
+        [
+          "Editor Mode",
+          "编辑器模式"
+        ],
+        [
+          "Show Chat",
+          "显示对话"
+        ],
+        [
+          "Side Chat",
+          "侧边对话"
+        ],
+        [
+          "Ask Sidechat",
+          "询问侧边对话"
+        ],
+        [
+          "Create Chat",
+          "创建对话"
+        ],
+        [
+          "Create plan",
+          "创建计划"
+        ],
+        [
+          "View plan",
+          "查看计划"
+        ],
+        [
+          "Plan changes",
+          "计划更改"
+        ],
+        [
+          "Start writing your plan...",
+          "开始撰写计划..."
+        ],
+        [
+          "Write your instructions for the agent here...",
+          "在此写下给智能体的说明..."
+        ],
+        [
+          "Start a side chat with this conversation as context; runs alongside without interrupting the main chat",
+          "以此对话为上下文开始侧边对话；它会并行运行，且不会打断主对话"
+        ],
+        [
+          "Mark chat as read",
+          "将对话标为已读"
+        ],
+        [
+          "Mark chat as unread",
+          "将对话标为未读"
+        ],
+        [
+          "Move to New Chat",
+          "移到新对话"
+        ],
+        [
+          "Replace Chat",
+          "替换对话"
+        ],
+        [
+          "Restore chat",
+          "恢复对话"
+        ],
+        [
+          "Reset Chat Mode to Default",
+          "将对话模式重置为默认"
+        ],
+        [
+          "Are you sure you want to reset the chat mode to default?",
+          "确定要将对话模式重置为默认吗？"
+        ],
+        [
+          "Error resuming chat",
+          "恢复对话时出错"
+        ],
+        [
+          "A background task finished, but the chat couldn't resume. Try again in a moment.",
+          "后台任务已完成，但对话无法恢复。请稍后再试。"
+        ],
+        [
+          "Collapse Composer",
+          "折叠 Composer"
+        ],
+        [
+          "Copy prompt",
+          "复制提示词"
+        ],
+        [
+          "Switch mode",
+          "切换模式"
+        ],
+        [
+          "Switch Theme",
+          "切换主题"
+        ],
+        [
+          "Switch Privacy Mode?",
+          "切换隐私模式？"
+        ],
+        [
+          "Disable Privacy Mode",
+          "禁用隐私模式"
+        ],
+        [
+          "Skip Mode Switch",
+          "跳过模式切换"
+        ],
+        [
+          "Switch where this agent runs",
+          "切换此智能体的运行位置"
+        ],
+        [
+          "Processing voice input…",
+          "正在处理语音输入…"
+        ],
+        [
+          "Sent by voice call",
+          "由语音通话发送"
+        ],
+        [
+          "Voice chat transcript",
+          "语音通话记录"
+        ],
+        [
+          "Default voice for voice chats",
+          "语音对话的默认声音"
+        ],
+        [
+          "Words that send your prompt while you dictate",
+          "听写时用于发送提示的词语"
+        ],
+        [
+          "Cursor does not have access to your microphone. Please enable in Settings.",
+          "Cursor 无法使用麦克风。请在设置中启用。"
+        ],
+        [
+          "Microphone access was denied or is unavailable.",
+          "麦克风访问被拒绝或不可用。"
+        ],
+        [
+          "You've hit your rate limit on your current plan",
+          "您已达到当前计划的速率限制"
+        ],
+        [
+          "Switched to Auto, which provides significantly higher usage limits.",
+          "已切换到 Auto，它提供高得多的用量限额。"
+        ],
+        [
+          "Auto has significantly higher usage limits",
+          "Auto 的用量限额高得多"
+        ],
+        [
+          "Plan ending soon",
+          "计划即将结束"
+        ],
+        [
+          "Upgrade to Ultra",
+          "升级到 Ultra"
+        ],
+        [
+          "Upgrade to use Cloud Agents",
+          "升级以使用云端智能体"
+        ],
+        [
+          "More power for demanding projects",
+          "为高要求项目提供更强能力"
+        ],
+        [
+          "Great for individual developers",
+          "适合个人开发者"
+        ],
+        [
+          "Maximum power and flexibility",
+          "最强能力与灵活性"
+        ],
+        [
+          "Enable usage-based pricing",
+          "启用按量计费"
+        ],
+        [
+          "Enable usage-based pricing for premium models",
+          "为高级模型启用按量计费"
+        ],
+        [
+          "What sending a message while Agent is running does",
+          "智能体运行时发送消息的行为"
+        ],
+        [
+          "Send Queued Message Now",
+          "立即发送队列中的消息"
+        ],
+        [
+          "Suggest a follow-up after each turn; Tab to insert",
+          "每轮结束后建议后续内容；按 Tab 插入"
+        ],
+        [
+          "Play a sound when a chat response is completed",
+          "对话回复完成时播放声音"
+        ],
+        [
+          "Show notification toasts in the same location as the chat",
+          "在与对话相同的位置显示通知提示"
+        ],
+        [
+          "New Message Settings",
+          "新消息设置"
+        ],
+        [
+          "Waiting on command approval",
+          "正在等待命令批准"
+        ],
+        [
+          "The agent's machine is being prepared. This can take a few minutes.",
+          "正在准备智能体的机器。这可能需要几分钟。"
+        ],
+        [
+          "Point at anything and tell the agent what to fix",
+          "指向任何内容，并告诉智能体要修复什么"
+        ],
+        [
+          "A coding agent in the open workspace.",
+          "当前工作区中的编程智能体。"
+        ],
+        [
+          "AI teammates you can give real work to",
+          "可以把真正的工作交给它们的 AI 队友"
+        ],
+        [
+          "Plugins give your agents important context",
+          "插件为智能体提供重要上下文"
+        ],
+        [
+          "Define a new skill for the agent to use",
+          "定义供智能体使用的新技能"
+        ],
+        [
+          "Tells the agent when to use this skill",
+          "告诉智能体何时使用此技能"
+        ],
+        [
+          "Skill name",
+          "技能名称"
+        ],
+        [
+          "New User Skill",
+          "新建用户技能"
+        ],
+        [
+          "Describe the tasks this rule is helpful for...",
+          "描述此规则适用于哪些任务..."
+        ],
+        [
+          "Open Rule",
+          "打开规则"
+        ],
+        [
+          "Open the generated rule file",
+          "打开生成的规则文件"
+        ],
+        [
+          "Create a cursor rule from the highlighted text",
+          "用选中文本创建 Cursor 规则"
+        ],
+        [
+          "Replace Skill",
+          "替换技能"
+        ],
+        [
+          "Install a plugin from the marketplace",
+          "从市场安装插件"
+        ],
+        [
+          "Uninstall an installed plugin",
+          "卸载已安装的插件"
+        ],
+        [
+          "Confirm Plugin Removal",
+          "确认移除插件"
+        ],
+        [
+          "Plugin Settings",
+          "插件设置"
+        ],
+        [
+          "Select a local marketplace folder",
+          "选择本地市场文件夹"
+        ],
+        [
+          "Select a local plugin repo",
+          "选择本地插件仓库"
+        ],
+        [
+          "Path to a local marketplace folder",
+          "本地市场文件夹路径"
+        ],
+        [
+          "Add a marketplace from a repository",
+          "从仓库添加市场"
+        ],
+        [
+          "Add a marketplace from your local computer",
+          "从本地电脑添加市场"
+        ],
+        [
+          "The plugins you're removing from the marketplace will no longer be available to users and Cloud Agents that rely on them.",
+          "您从市场移除的插件将不再对依赖它们的用户和云端智能体可用。"
+        ],
+        [
+          "Commit on Main",
+          "在主分支提交"
+        ],
+        [
+          "Commit on Main Branch",
+          "在主分支提交"
+        ],
+        [
+          "Create New Branch",
+          "创建新分支"
+        ],
+        [
+          "Create a new pull request",
+          "创建新的拉取请求"
+        ],
+        [
+          "Create a merge commit",
+          "创建合并提交"
+        ],
+        [
+          "Merge commit",
+          "合并提交"
+        ],
+        [
+          "Merge Editor",
+          "合并编辑器"
+        ],
+        [
+          "Squash merge",
+          "压缩合并"
+        ],
+        [
+          "Squash all commits into one",
+          "将所有提交压缩为一个"
+        ],
+        [
+          "Rebase merge",
+          "变基合并"
+        ],
+        [
+          "Rebase and merge commits",
+          "变基并合并提交"
+        ],
+        [
+          "Diff with Main Branch",
+          "与主分支比较差异"
+        ],
+        [
+          "Go to Next Diff File",
+          "转到下一个差异文件"
+        ],
+        [
+          "Go to Previous Diff File",
+          "转到上一个差异文件"
+        ],
+        [
+          "Select All in Diff",
+          "选择差异中的全部内容"
+        ],
+        [
+          "Select All in File",
+          "选择文件中的全部内容"
+        ],
+        [
+          "View Uncommitted Changes",
+          "查看未提交的更改"
+        ],
+        [
+          "View PR",
+          "查看 PR"
+        ],
+        [
+          "View Agent",
+          "查看智能体"
+        ],
+        [
+          "View Hooks",
+          "查看钩子"
+        ],
+        [
+          "Push branch to remote",
+          "将分支推送到远程"
+        ],
+        [
+          "Push local branch to remote",
+          "将本地分支推送到远程"
+        ],
+        [
+          "Failed to push branch",
+          "推送分支失败"
+        ],
+        [
+          "Failed to Stage Files",
+          "暂存文件失败"
+        ],
+        [
+          "Failed to Unstage Files",
+          "取消暂存文件失败"
+        ],
+        [
+          "Copy Base Branch Name",
+          "复制基础分支名"
+        ],
+        [
+          "Use Current Branch",
+          "使用当前分支"
+        ],
+        [
+          "No branches",
+          "没有分支"
+        ],
+        [
+          "Your branches",
+          "您的分支"
+        ],
+        [
+          "No Git Remote",
+          "没有 Git 远程"
+        ],
+        [
+          "Git Not Initialized",
+          "尚未初始化 Git"
+        ],
+        [
+          "Download Git",
+          "下载 Git"
+        ],
+        [
+          "Connect GitHub/GitLab",
+          "连接 GitHub/GitLab"
+        ],
+        [
+          "Workspace Not at Git Root",
+          "工作区不在 Git 根目录"
+        ],
+        [
+          "Workspace Disconnected",
+          "工作区已断开"
+        ],
+        [
+          "Workspace name",
+          "工作区名称"
+        ],
+        [
+          "Open from this branch",
+          "从此分支打开"
+        ],
+        [
+          "Open from new branch",
+          "从新分支打开"
+        ],
+        [
+          "Open pull request in browser",
+          "在浏览器中打开拉取请求"
+        ],
+        [
+          "Open pull request links inside Cursor or the default browser",
+          "在 Cursor 或默认浏览器中打开拉取请求链接"
+        ],
+        [
+          "Convert draft PR to open PR",
+          "将草稿 PR 转为公开 PR"
+        ],
+        [
+          "Mark ready for review",
+          "标记为可审查"
+        ],
+        [
+          "For Review",
+          "待审查"
+        ],
+        [
+          "This pull request is queued to merge",
+          "此拉取请求已排队等待合并"
+        ],
+        [
+          "Ignore branch difference",
+          "忽略分支差异"
+        ],
+        [
+          "Checking out branch…",
+          "正在检出分支…"
+        ],
+        [
+          "Recent commits",
+          "最近提交"
+        ],
+        [
+          "No recent commits found in selected repositories.",
+          "所选仓库中没有最近的提交。"
+        ],
+        [
+          "No upstream remote found to open PR",
+          "未找到可用于打开 PR 的上游远程"
+        ],
+        [
+          "No workspace open to create PR from",
+          "没有可用于创建 PR 的已打开工作区"
+        ],
+        [
+          "Failed to check git status to open PR",
+          "检查 Git 状态以打开 PR 失败"
+        ],
+        [
+          "Files changed outside of conversations",
+          "对话之外发生了文件更改"
+        ],
+        [
+          "Use commit hash",
+          "使用提交哈希"
+        ],
+        [
+          "Split the current work into reviewable pull requests",
+          "把当前工作拆成可审查的拉取请求"
+        ],
+        [
+          "Request an agent to review your code",
+          "请智能体审查您的代码"
+        ],
+        [
+          "Investigate Error in Chat",
+          "在对话中调查错误"
+        ],
+        [
+          "Failed to retry Cloud Agent",
+          "重试云端智能体失败"
+        ],
+        [
+          "Rename cloud agent",
+          "重命名云端智能体"
+        ],
+        [
+          "Target environment: cloud",
+          "目标环境：云端"
+        ],
+        [
+          "Self-hosted Agent",
+          "自托管智能体"
+        ],
+        [
+          "Local agent runtime",
+          "本地智能体运行时"
+        ],
+        [
+          "Remote Control Agent",
+          "远程控制智能体"
+        ],
+        [
+          "Apply changes locally",
+          "在本地应用更改"
+        ],
+        [
+          "Applying changes locally…",
+          "正在本地应用更改…"
+        ],
+        [
+          "Applying changes locally. This may take a few seconds.",
+          "正在本地应用更改。这可能需要几秒钟。"
+        ],
+        [
+          "Choose a folder for your new project",
+          "为新项目选择文件夹"
+        ],
+        [
+          "New worktree",
+          "新建工作树"
+        ],
+        [
+          "Worktree Composer",
+          "工作树 Composer"
+        ],
+        [
+          "Use Cursor Browser",
+          "使用 Cursor 浏览器"
+        ],
+        [
+          "Use External Browser",
+          "使用外部浏览器"
+        ],
+        [
+          "Do not use browser",
+          "不使用浏览器"
+        ],
+        [
+          "Configure browser automation",
+          "配置浏览器自动化"
+        ],
+        [
+          "Enable browser tools",
+          "启用浏览器工具"
+        ],
+        [
+          "Open a browser for web interactions",
+          "打开浏览器进行网页交互"
+        ],
+        [
+          "Open in Design Mode",
+          "在设计模式中打开"
+        ],
+        [
+          "Open in Editor",
+          "在编辑器中打开"
+        ],
+        [
+          "Open Build Menu",
+          "打开构建菜单"
+        ],
+        [
+          "Loading Canvases",
+          "正在加载画布"
+        ],
+        [
+          "Resize canvas list",
+          "调整画布列表大小"
+        ],
+        [
+          "Resize sidebar",
+          "调整侧栏大小"
+        ],
+        [
+          "Produces canvases",
+          "生成画布"
+        ],
+        [
+          "Accept Cursor Tab Suggestion",
+          "接受 Cursor Tab 建议"
+        ],
+        [
+          "Accept Edits",
+          "接受编辑"
+        ],
+        [
+          "Delete file",
+          "删除文件"
+        ],
+        [
+          "Edit file",
+          "编辑文件"
+        ],
+        [
+          "Read file",
+          "读取文件"
+        ],
+        [
+          "Setting up",
+          "正在设置"
+        ],
+        [
+          "Starting processes...",
+          "正在启动进程..."
+        ],
+        [
+          "Stopping processes...",
+          "正在停止进程..."
+        ],
+        [
+          "Unsupported Model",
+          "不支持的模型"
+        ],
+        [
+          "Unknown model (fallback formatting)",
+          "未知模型（回退格式）"
+        ],
+        [
+          "With Plan",
+          "包含计划"
+        ],
+        [
+          "Show Add to Chat and Quick Edit buttons",
+          "显示「添加到对话」和「快速编辑」按钮"
+        ],
+        [
+          "Choose which theme to use",
+          "选择要使用的主题"
+        ],
+        [
+          "Choose the theme used when your system is in dark mode",
+          "选择系统处于深色模式时使用的主题"
+        ],
+        [
+          "Choose the theme used when your system is in light mode",
+          "选择系统处于浅色模式时使用的主题"
+        ],
+        [
+          "Choose the theme used when your system is in dark high contrast mode",
+          "选择系统处于深色高对比度模式时使用的主题"
+        ],
+        [
+          "Choose the theme used when your system is in light high contrast mode",
+          "选择系统处于浅色高对比度模式时使用的主题"
+        ],
+        [
+          "High Contrast Dark Theme",
+          "高对比度深色主题"
+        ],
+        [
+          "High Contrast Light Theme",
+          "高对比度浅色主题"
+        ],
+        [
+          "This will remove the custom theme from your saved themes.",
+          "这将从已保存的主题中移除此自定义主题。"
+        ],
+        [
+          "Disable Cursor Tab for these languages",
+          "对这些语言禁用 Cursor Tab"
+        ],
+        [
+          "Show the Cmd/Ctrl+K hint in Terminal",
+          "在终端中显示 Cmd/Ctrl+K 提示"
+        ],
+        [
+          "Preview Box for Terminal Cmd/Ctrl+K",
+          "终端 Cmd/Ctrl+K 的预览框"
+        ],
+        [
+          "Use preview box for terminal cmd-k. If turned off, responses are streamed directly into the shell.",
+          "对终端 Cmd+K 使用预览框。关闭后，回复会直接流式输出到 shell。"
+        ],
+        [
+          "Use the preview box instead of shell streaming",
+          "使用预览框，而不是直接流式输出到 shell"
+        ],
+        [
+          "AI-based Terminal Completion Detection.",
+          "基于 AI 的终端完成检测。"
+        ],
+        [
+          "Use themed background colors for inline diffs",
+          "为内联差异使用主题背景色"
+        ],
+        [
+          "Enable performance protection for inline diffs. When enabled, inline diff decorations will be suppressed if there are too many changes to prevent editor unresponsiveness.",
+          "为内联差异启用性能保护。开启后，如果更改过多，将抑制内联差异装饰，以免编辑器失去响应。"
+        ],
+        [
+          "Controls the maximum width in pixels of chat content.",
+          "控制对话内容的最大宽度（像素）。"
+        ],
+        [
+          "Files to exclude from indexing in addition to .gitignore",
+          "除 .gitignore 之外，索引时还要排除的文件"
+        ],
+        [
+          "Global list of files to always ignore in Cursor features, across all workspaces. Uses glob patterns. These patterns have the same effect as adding them to a .cursorignore file in every workspace.",
+          "在所有工作区的 Cursor 功能中始终忽略的全局文件列表。使用 glob 模式。效果等同于把这些模式写进每个工作区的 .cursorignore。"
+        ],
+        [
+          "Interval in hours for periodic worktree cleanup. Default is 6 hours.",
+          "定期清理工作树的间隔（小时）。默认 6 小时。"
+        ],
+        [
+          "Maximum total size in GB for the Cursor worktrees directory across all workspaces. Set to 0 to disable this limit.",
+          "所有工作区中 Cursor 工作树目录的总大小上限（GB）。设为 0 可禁用此限制。"
+        ],
+        [
+          "Maximum number of Cursor-managed worktrees to keep across all workspaces. Older worktrees are removed first. Default is 25.",
+          "所有工作区中保留的 Cursor 管理工作树数量上限。较旧的工作树会先被移除。默认 25。"
+        ],
+        [
+          "Maximum number of local Agent Window workspaces that can run language servers.",
+          "可运行语言服务器的本地智能体窗口工作区数量上限。"
+        ],
+        [
+          "Maximum number of remote Agent Window workspaces that can run language servers.",
+          "可运行语言服务器的远程智能体窗口工作区数量上限。"
+        ],
+        [
+          "Cursor periodically removes old worktrees to free disk space",
+          "Cursor 会定期移除旧工作树以释放磁盘空间"
+        ],
+        [
+          "Cursor syncs your local skills so they can be used with Cloud Agents",
+          "Cursor 会同步本地技能，以便云端智能体使用"
+        ],
+        [
+          "Model to use for subagent tasks",
+          "子智能体任务使用的模型"
+        ],
+        [
+          "Choose Explore subagent model",
+          "选择探索子智能体的模型"
+        ],
+        [
+          "Automatically save files in normal composers",
+          "在普通 Composer 中自动保存文件"
+        ],
+        [
+          "Allow CLI to access desktop agents",
+          "允许命令行访问桌面智能体"
+        ],
+        [
+          "Enable or disable Self-driving for PRs owned by this account",
+          "为此账户拥有的 PR 启用或禁用自动驾驶"
+        ],
+        [
+          "Choose whether automatically started agents suggest or apply changes",
+          "选择自动启动的智能体是提出建议还是直接应用更改"
+        ],
+        [
+          "Configure the local agent LLM gateway",
+          "配置本地智能体 LLM 网关"
+        ],
+        [
+          "Label this account",
+          "为此账户添加标签"
+        ],
+        [
+          "Make the cursor.com profile page visible to anyone with the link",
+          "让任何拥有链接的人都能看到 cursor.com 个人资料页"
+        ],
+        [
+          "Upload or remove the profile photo",
+          "上传或移除头像"
+        ],
+        [
+          "Social and website links on the public profile page",
+          "公开个人资料页上的社交和网站链接"
+        ],
+        [
+          "Authenticate MCP",
+          "验证 MCP"
+        ],
+        [
+          "Get MCP tools",
+          "获取 MCP 工具"
+        ],
+        [
+          "Command to start the stdio-based MCP server",
+          "用于启动基于 stdio 的 MCP 服务器的命令"
+        ],
+        [
+          "Configuration for MCP (Model Control Protocol) servers",
+          "MCP 服务器的配置"
+        ],
+        [
+          "Arguments to pass to the command",
+          "传递给命令的参数"
+        ],
+        [
+          "Environment variables to set for the server process",
+          "为服务器进程设置的环境变量"
+        ],
+        [
+          "Optional HTTP headers to include with every request to the server",
+          "每次请求服务器时包含的可选 HTTP 标头"
+        ],
+        [
+          "URL of the SSE-based MCP server",
+          "基于 SSE 的 MCP 服务器 URL"
+        ],
+        [
+          "Attach when files matching these patterns are read",
+          "读取匹配这些模式的文件时附加"
+        ],
+        [
+          "Disable HTTP/2 for all requests, and use HTTP/1.1 instead. This increases resource utilization and latency, but is useful if you're behind a corporate proxy that blocks HTTP/2.",
+          "对所有请求禁用 HTTP/2，改用 HTTP/1.1。这会增加资源占用和延迟，但在公司代理拦截 HTTP/2 时有用。"
+        ],
+        [
+          "Disable HTTP/1.1 SSE for agent chat. This increases resource utilization and latency, but is useful if you're behind a corporate proxy that does not support HTTP/1.1 SSE streaming responses.",
+          "对智能体对话禁用 HTTP/1.1 SSE。这会增加资源占用和延迟，但在公司代理不支持 HTTP/1.1 SSE 流式响应时有用。"
+        ],
+        [
+          "Environment File Not Synced",
+          "环境文件未同步"
+        ],
+        [
+          "Environment File Outdated",
+          "环境文件已过期"
+        ],
+        [
+          "Although the .cursor/environment.json file exists on your local machine, it needs to be pushed to your online repository (e.g. GitHub/GitLab). Please commit and push the .cursor/environment.json file to continue.",
+          "本机已有 .cursor/environment.json，但需要推送到在线仓库（例如 GitHub/GitLab）。请提交并推送该文件后继续。"
+        ],
+        [
+          "Index your git history to help Cursor understand which files are related to each other. Code and commit messages are stored locally, but metadata about commits (SHAs, number of changes, and encrypted file names) are stored on the server.",
+          "索引 Git 历史，帮助 Cursor 理解文件之间的关系。代码和提交说明保存在本地，但提交元数据（SHA、更改数量和加密后的文件名）会保存在服务器上。"
+        ],
+        [
+          "Enable Run Everything for this agent",
+          "为此智能体启用全部运行"
+        ],
+        [
+          "Run Everything Mode Warning",
+          "全部运行模式警告"
+        ],
+        [
+          "Let Cursor see logs and view your app with Playwright MCP",
+          "让 Cursor 通过 Playwright MCP 查看日志和应用"
+        ],
+        [
+          "Connect your Notion workspace to search, update, and trigger workflows across tools.",
+          "连接 Notion 工作区，以便跨工具搜索、更新并触发工作流。"
+        ],
+        [
+          "Create a document, diagram, or small website to express an idea.",
+          "创建文档、图表或小型网站来表达想法。"
+        ],
+        [
+          "Duplicate the current repository in a new workspace.",
+          "在新工作区中复制当前仓库。"
+        ],
+        [
+          "Change Cursor editor preferences.",
+          "更改 Cursor 编辑器偏好。"
+        ],
+        [
+          "Change run mode",
+          "更改运行模式"
+        ],
+        [
+          "Open exported chat",
+          "打开导出的对话"
+        ],
+        [
+          "Bulk Import Chats — pick directory of exported chats",
+          "批量导入对话 — 选择导出对话所在的目录"
+        ],
+        [
+          "Markdown Plan Editor",
+          "Markdown 计划编辑器"
+        ],
+        [
+          "Text size scale for the markdown plan editor. `default` matches Agent chat text size (`cursor.composer.textSizeScale`). Other values fix the scale (0.85–1.3).",
+          "Markdown 计划编辑器的文字缩放。`default` 与智能体对话文字大小一致（`cursor.composer.textSizeScale`）。其他值会固定缩放比例（0.85–1.3）。"
+        ],
+        [
+          "Include commits with files results",
+          "在文件结果中包含提交"
+        ],
+        [
+          "List of action IDs to always show in the editor title bar. These actions will be pinned and visible regardless of the default visibility settings.",
+          "始终显示在编辑器标题栏中的操作 ID 列表。这些操作会被固定，不受默认可见性设置影响。"
+        ],
+        [
+          "When enabled, uses grayscale antialiasing for thinner, crisper text that matches native macOS rendering.",
+          "开启后使用灰度抗锯齿，让文字更细、更清晰，并接近 macOS 原生渲染。"
+        ],
+        [
+          "Cloud agents require all workspace folders to be inside a Git repository.",
+          "云端智能体要求所有工作区文件夹都位于 Git 仓库内。"
+        ],
+        [
+          "All context items were filtered out because they are too big.",
+          "所有上下文项都因过大而被过滤。"
+        ],
+        [
+          "Failed to stage changes. Please check file permissions and try again.",
+          "暂存更改失败。请检查文件权限后重试。"
+        ],
+        [
+          "Failed to attach video file. Please try again.",
+          "附加视频文件失败。请重试。"
+        ],
+        [
+          "File too large - over 1M chars",
+          "文件过大，超过 100 万个字符"
+        ],
+        [
+          "No git worktree found for this chat",
+          "未找到此对话的 Git 工作树"
+        ],
+        [
+          "Capturing snapshot. The window may briefly freeze.",
+          "正在捕获快照。窗口可能会短暂卡住。"
+        ],
+        [
+          "Done. Cursor can now see logs and view your browser.",
+          "完成。Cursor 现在可以查看日志和浏览器。"
+        ],
+        [
+          "Add paths or globs (for example, /tmp/*)",
+          "添加路径或 glob（例如 /tmp/*）"
+        ],
+        [
+          "e.g. anthropic.claude-3-sonnet-20240229-v1:0",
+          "例如 anthropic.claude-3-sonnet-20240229-v1:0"
+        ],
+        [
+          "Review active work and summarize progress, blockers, and next actions.",
+          "审查当前工作，并总结进度、阻碍和下一步。"
+        ],
+        [
+          "Summarize recent project activity, progress, risks, and blockers.",
+          "总结最近的项目活动、进度、风险和阻碍。"
+        ],
+        [
+          "Summarize urgent messages, assigned issues, and GitHub activity each weekday.",
+          "每个工作日总结紧急消息、分配的议题和 GitHub 活动。"
+        ],
+        [
+          "Fetches the latest origin/main and reports whether the current branch is behind.",
+          "获取最新的 origin/main，并报告当前分支是否落后。"
+        ],
+        [
+          "Scheduled tasks run on this machine while Cursor is open",
+          "计划任务会在 Cursor 打开时在这台机器上运行"
+        ],
+        [
+          "Wait for CI, PR, Slack, or Linear events instead of polling.",
+          "等待 CI、PR、Slack 或 Linear 事件，而不是轮询。"
+        ],
+        [
+          "Trigger an agent to run based on a trigger or schedule.",
+          "根据触发器或计划运行智能体。"
+        ],
+        [
+          "Run a shell command in the terminal.",
+          "在终端中运行 shell 命令。"
+        ],
+        [
+          "Get started with Cursor.",
+          "开始使用 Cursor。"
+        ],
+        [
+          "Only runs when you invoke it explicitly",
+          "仅在您明确调用时运行"
+        ]
+      ]
+    },
+    {
+      "id": "followup_projects_usage",
+      "title": "输入框、项目与用量",
+      "entries": [
+        [
+          "Projects",
+          "项目"
+        ],
+        [
+          "No Projects match",
+          "没有匹配的项目"
+        ],
+        [
+          "Send follow-up with subagent",
+          "向子智能体发送后续消息"
+        ],
+        [
+          "Drop here to attach...",
+          "拖到此处以附加..."
+        ],
+        [
+          "Drop here to attach",
+          "拖到此处以附加"
+        ],
+        [
+          "Continue chatting in Cursor",
+          "在 Cursor 中继续聊天"
+        ],
+        [
+          "Follow-ups aren't available for this subagent",
+          "此子智能体无法发送后续消息"
+        ],
+        [
+          "Couldn't load this conversation. Send a follow-up or reload the window to try again.",
+          "无法加载此对话。发送后续消息或重新加载窗口后再试。"
+        ],
+        [
+          "Additional usage beyond limits consumes on-demand spend.",
+          "超出限额的额外用量会产生按需消费。"
+        ],
+        [
+          "Additional usage beyond limits consumes API quota or on-demand usage.",
+          "超出限额的额外用量会消耗 API 配额或按需用量。"
+        ],
+        [
+          "Additional usage consumes API quota.",
+          "额外用量会消耗 API 配额。"
+        ],
+        [
+          "Consumed by Auto. Additional usage consumes API quota.",
+          "由 Auto 消耗。额外用量会消耗 API 配额。"
+        ]
+      ]
+    },
+    {
+      "id": "model_includes",
+      "title": "模型包含说明",
+      "entries": [
+        [
+          "Includes Cursor Grok and Composer",
+          "包含 Cursor Grok 和 Composer"
+        ],
+        [
+          "Includes Auto, Grok 4.5 and Composer 2.5",
+          "包含 Auto、Grok 4.5 和 Composer 2.5"
+        ],
+        [
+          "Includes Auto, Cursor Grok 4.5 and Composer 2.5",
+          "包含 Auto、Cursor Grok 4.5 和 Composer 2.5"
+        ]
+      ]
+    },
+    {
+      "id": "percent_used",
+      "title": "用量百分比",
+      "entries": [
+        [
+          "% used",
+          "% 已用"
+        ],
+        [
+          "% Used",
+          "% 已用"
         ]
       ]
     }

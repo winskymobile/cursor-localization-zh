@@ -897,7 +897,7 @@
 
     function FanYi_ShuXing(el) {
         if (!el || !el.getAttribute) return;
-        var attrs = ['title', 'aria-label', 'alt', 'placeholder', 'aria-placeholder', 'data-tooltip', 'data-title'];
+        var attrs = ['title', 'aria-label', 'alt', 'placeholder', 'data-placeholder', 'aria-placeholder', 'data-tooltip', 'data-title'];
         for (var i = 0; i < attrs.length; i++) {
             var val = el.getAttribute(attrs[i]);
             if (!val) continue;
@@ -1226,12 +1226,20 @@
         while (stack.length > 0) {
             var node = stack.pop();
             if (node.nodeType === Node.ELEMENT_NODE) {
-                if (TiaoGuo_BiaoQian.has(node.tagName)) continue;
+                if (TiaoGuo_BiaoQian.has(node.tagName)) {
+                    if (node.tagName === 'TEXTAREA' || node.tagName === 'INPUT') {
+                        try { FanYi_ShuXing(node); } catch (e) {}
+                    }
+                    continue;
+                }
                 if (YingGai_TiaoGuo_FanYi_ZiShu_YuanSu(node)) continue;
                 var inPromptBar = Shi_PromptBar_QuYu(node);
                 if (!inPromptBar) {
                     if (node.classList && (node.classList.contains('overflow-guard') || node.classList.contains('view-lines') || node.classList.contains('editor-scrollable'))) continue;
-                    if (node.getAttribute('contenteditable') === 'true') continue;
+                    if (node.getAttribute('contenteditable') === 'true') {
+                        try { GengXin_Placeholder_ShuXing(node); } catch (e) {}
+                        continue;
+                    }
                 }
                 FanYi_ShuXing(node);
                 var children = node.childNodes;
@@ -1615,6 +1623,11 @@
         var huiDiaoQiZhi = 0;
         for (var i = 0; i < mutations.length; i++) {
             var m = mutations[i];
+            if (m.type === 'attributes' && m.target && m.target.getAttribute) {
+                try { FanYi_ShuXing(m.target); } catch (e) {}
+                try { GengXin_Placeholder_ShuXing(m.target); } catch (e) {}
+                continue;
+            }
             if (m.type === 'childList') {
                 var added = m.addedNodes;
                 for (var j = 0; j < added.length; j++) {
@@ -2757,6 +2770,8 @@
             ['Ask questions without making changes...', '在不修改代码的情况下提问...'],
             ['Ask questions without making changes', '在不修改代码的情况下提问'],
             ['Run Cursor anywhere...', '在任意位置运行 Cursor...'],
+            ['Send follow-up', '发送后续消息'],
+            ['Send follow-up with subagent', '向子智能体发送后续消息'],
             ['Add a follow-up', '添加后续问题'],
             ['Work on explicitly added files (no tools)', '处理已明确添加的文件（无工具）'],
             ['Reject, suggest, follow up?', '拒绝、建议、继续跟进？'],

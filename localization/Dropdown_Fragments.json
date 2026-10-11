@@ -1329,6 +1329,26 @@
     [
       "Copyright © 2026 Anysphere. All rights reserved.",
       "版权所有 © 2026 Anysphere。保留所有权利。"
+    ],
+    [
+      "Includes Cursor Grok and Composer",
+      "包含 Cursor Grok 和 Composer"
+    ],
+    [
+      "Includes Auto, Grok 4.5 and Composer 2.5",
+      "包含 Auto、Grok 4.5 和 Composer 2.5"
+    ],
+    [
+      "Includes Auto, Cursor Grok 4.5 and Composer 2.5",
+      "包含 Auto、Cursor Grok 4.5 和 Composer 2.5"
+    ],
+    [
+      "% used",
+      "% 已用"
+    ],
+    [
+      "% Used",
+      "% 已用"
     ]
   ]
 }

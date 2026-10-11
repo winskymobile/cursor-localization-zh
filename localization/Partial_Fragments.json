@@ -1,6 +1,6 @@
 {
   "description": "设置页等长句的部分匹配替换（TiHuan_BuFen_WenBen）。修改后重新运行 Cursor_Localization_Tool.py 注入生效。",
-  "updatedAt": "2026-07-09",
+  "updatedAt": "2026-10-10",
   "entries": [
     [
       "Embed codebase for improved contextual understanding and knowledge.",
@@ -345,6 +345,830 @@
     [
       "This action cannot be undone",
       "此操作无法撤销"
+    ],
+    [
+      "Fix CI, conflicts, and comments with full self driving",
+      "用自动驾驶处理 CI、冲突和评论"
+    ],
+    [
+      "Fetching and switching to the Cloud Agent branch.",
+      "正在获取并切换到云端智能体分支。"
+    ],
+    [
+      "Cloud Agent data is still loading. Please try opening this agent again.",
+      "云端智能体数据仍在加载。请稍后再次打开此智能体。"
+    ],
+    [
+      "Cloud Agent is not enabled. Please enable it in the settings.",
+      "云端智能体未启用。请在设置中启用。"
+    ],
+    [
+      "Cloud Agent needs to store your code to function properly. You can enable storage while maintaining privacy.",
+      "云端智能体需要存储代码才能正常工作。您可以在启用存储的同时保持隐私。"
+    ],
+    [
+      "Cloud agents work from a clone of your repository in a secure sandbox. Connect GitHub to get started.",
+      "云端智能体在安全沙盒中使用仓库克隆进行工作。连接 GitHub 即可开始。"
+    ],
+    [
+      "Cloud agents require a single-root workspace. All folders must belong to the same Git repository.",
+      "云端智能体需要单根工作区。所有文件夹必须属于同一个 Git 仓库。"
+    ],
+    [
+      "Cloud Agents require access to your GitHub/GitLab account",
+      "云端智能体需要访问您的 GitHub/GitLab 账户"
+    ],
+    [
+      "The Cursor app needs to be installed on your repository to use Cloud Agents.",
+      "要使用云端智能体，需要在仓库中安装 Cursor 应用。"
+    ],
+    [
+      "Cloud Agents are not supported for public repositories",
+      "公共仓库不支持云端智能体"
+    ],
+    [
+      "Cloud Agents are not supported for public repositories for which you are not a collaborator.",
+      "对于您不是协作者的公共仓库，不支持云端智能体。"
+    ],
+    [
+      "The cloud agent requires a Git repository. Please initialize Git in this repository.",
+      "云端智能体需要 Git 仓库。请先在此仓库中初始化 Git。"
+    ],
+    [
+      "The cloud agent requires the workspace to be opened at the Git repository root. Please open the root folder of your Git repository instead of a subfolder.",
+      "云端智能体要求在 Git 仓库根目录打开工作区。请打开仓库根文件夹，而不是子文件夹。"
+    ],
+    [
+      "The cloud agent requires the Git repository to be hosted on GitHub/GitLab. Please add a remote to your Git repository and try again.",
+      "云端智能体要求 Git 仓库托管在 GitHub 或 GitLab。请添加远程仓库后重试。"
+    ],
+    [
+      "Cannot send a follow-up because this Cloud Agent has expired.",
+      "此云端智能体已过期，无法发送后续消息。"
+    ],
+    [
+      "GitHub connected. Cloud Agent setup is refreshing.",
+      "已连接 GitHub。正在刷新云端智能体设置。"
+    ],
+    [
+      "GitHub app access updated. Cloud Agent setup is refreshing.",
+      "GitHub 应用权限已更新。正在刷新云端智能体设置。"
+    ],
+    [
+      "Your team admin can switch to 'Privacy Mode' to use cloud agents.",
+      "团队管理员可以切换到「隐私模式」以使用云端智能体。"
+    ],
+    [
+      "Cloud agent repository is disabled outside Glass",
+      "Glass 之外已禁用云端智能体仓库"
+    ],
+    [
+      "Adding a local agent to a cloud project requires Remote Control",
+      "将本地智能体添加到云端项目需要远程控制"
+    ],
+    [
+      "Set up or troubleshoot a Cursor Cloud Agent environment.",
+      "设置或排查 Cursor 云端智能体环境。"
+    ],
+    [
+      "Cloud automations run agents from a variety of environment triggers or on a scheduled basis",
+      "云端自动化可根据环境触发器或按计划运行智能体"
+    ],
+    [
+      "Everyone on your team can view and edit this automation",
+      "团队中的所有人都可以查看并编辑此自动化"
+    ],
+    [
+      "This automation is managed from code. Change sharing in config-as-code.",
+      "此自动化由代码管理。请在配置即代码中更改共享设置。"
+    ],
+    [
+      "Automations are not available until privacy mode is reconciled to a storage-eligible setting.",
+      "在隐私模式调整为允许存储之前，自动化不可用。"
+    ],
+    [
+      "Automations use Cloud Agents, which require us to give agents access to your codebase. This is not compatible with Legacy Privacy Mode.",
+      "自动化使用云端智能体，需要允许智能体访问代码库。这与旧版隐私模式不兼容。"
+    ],
+    [
+      "Ask a team admin to update your team's privacy setting to use automations.",
+      "请让团队管理员更新团队隐私设置，以便使用自动化。"
+    ],
+    [
+      "Upgrade for Automations, unlimited completions, MAX Mode, and more",
+      "升级以使用自动化、无限补全、MAX 模式等功能"
+    ],
+    [
+      "Worktree chats require a single-root workspace. Remove additional workspace folders or open a single-folder workspace.",
+      "工作树对话需要单根工作区。请移除多余的工作区文件夹，或打开单文件夹工作区。"
+    ],
+    [
+      "Worktree feature not available, blocking submission",
+      "工作树功能不可用，已阻止提交"
+    ],
+    [
+      "Undo all applied changes. This agent will go back to the worktree.",
+      "撤销所有已应用的更改。此智能体将回到工作树。"
+    ],
+    [
+      "the branch is checked out in another git worktree",
+      "该分支已在另一个 Git 工作树中检出"
+    ],
+    [
+      "Cursor-managed worktrees grouped by source repository",
+      "按源仓库分组的 Cursor 管理工作树"
+    ],
+    [
+      "Canvas could not be opened. The canvas server may still be starting — try again.",
+      "无法打开画布。画布服务可能仍在启动，请重试。"
+    ],
+    [
+      "Canvas unpublished. Publish again to share with your team.",
+      "画布已取消发布。请重新发布后再与团队共享。"
+    ],
+    [
+      "Canvases in your personal space can't be team-shared",
+      "个人空间中的画布无法与团队共享"
+    ],
+    [
+      "Add plugins to this marketplace so your team can install them.",
+      "向此市场添加插件，以便团队安装。"
+    ],
+    [
+      "Add a workspace to Cursor to see popular skills, MCPs, subagents, and commands here.",
+      "向 Cursor 添加工作区，即可在此查看热门技能、MCP、子智能体和命令。"
+    ],
+    [
+      "Turn a recorded demonstration into a reusable skill.",
+      "把录制的演示变成可复用的技能。"
+    ],
+    [
+      "Move Cursor rules and commands into Agent Skills.",
+      "将 Cursor 规则和命令迁移到智能体技能。"
+    ],
+    [
+      "Only your personal skills in ~/.cursor/skills can be published.",
+      "只有 ~/.cursor/skills 中的个人技能可以发布。"
+    ],
+    [
+      "Select a team before publishing a skill. Publishing adds the skill to your team marketplace.",
+      "发布技能前请选择团队。发布后会加入团队市场。"
+    ],
+    [
+      "Authentication URL unavailable for this MCP server.",
+      "此 MCP 服务器没有可用的身份验证 URL。"
+    ],
+    [
+      "Authentication URL unavailable for this cloud MCP server.",
+      "此云端 MCP 服务器没有可用的身份验证 URL。"
+    ],
+    [
+      "No server-level description was provided for this MCP server.",
+      "此 MCP 服务器未提供服务级说明。"
+    ],
+    [
+      "List of tool names that are enabled for this server. If not specified, all tools are enabled by default.",
+      "为此服务器启用的工具名称列表。如果未指定，则默认启用全部工具。"
+    ],
+    [
+      "All MCP servers from this plugin are already added.",
+      "此插件中的 MCP 服务器已全部添加。"
+    ],
+    [
+      "Let any team member publish plugins to this marketplace. When off, only team admins can publish.",
+      "允许任何团队成员向此市场发布插件。关闭后仅团队管理员可以发布。"
+    ],
+    [
+      "Tools will auto-run in a sandbox if possible, otherwise respect the allowlist or ask for approval",
+      "工具会尽可能在沙盒中自动运行，否则遵循允许列表或请求批准"
+    ],
+    [
+      "Automatically run operations that Auto-review classifies as safe, using sandboxing when possible",
+      "自动运行自动审查判定为安全的操作，并尽可能使用沙盒"
+    ],
+    [
+      "Many commands will run automatically inside the sandbox, and you can also allowlist other actions.",
+      "许多命令会在沙盒内自动运行，您也可以把其他操作加入允许列表。"
+    ],
+    [
+      "Sandboxed network access is disabled by your admin.",
+      "管理员已禁用沙盒网络访问。"
+    ],
+    [
+      "Subagent model overrides will only be used in Max Mode",
+      "子智能体模型覆盖仅在 Max 模式中生效"
+    ],
+    [
+      "Automatically resume working on agents and their subagents after a reload or restart",
+      "重新加载或重启后自动继续处理智能体及其子智能体"
+    ],
+    [
+      "This chat was created in an older version of Cursor and is no longer supported. Please start a new chat.",
+      "此对话由旧版 Cursor 创建，已不再支持。请开始新对话。"
+    ],
+    [
+      "This conversation has corrupted data. You can view and export it, but new messages cannot be sent. Please start a new conversation to continue.",
+      "此对话数据已损坏。您可以查看和导出，但无法发送新消息。请开始新对话以继续。"
+    ],
+    [
+      "Later messages in this chat will be removed. File changes after this message can be reverted so they match, or kept as they are.",
+      "此消息之后的内容将被移除。之后的文件更改可以还原为一致状态，也可以保留现状。"
+    ],
+    [
+      "Choose the default behavior of messages sent manually from the queue while Agent is streaming",
+      "选择智能体输出时，从队列手动发送消息的默认行为"
+    ],
+    [
+      "Steering sends new messages to Agent while it works, without stopping it. Open Settings to turn it on.",
+      "引导会在智能体工作时发送新消息，而不会停止它。打开设置即可启用。"
+    ],
+    [
+      "Allow agent to switch to modes like Plan or Debug without asking. When off, Cursor asks first, but skips if unanswered within 15 seconds.",
+      "允许智能体在不询问的情况下切换到计划或调试等模式。关闭后，Cursor 会先询问，若 15 秒内未回复则跳过。"
+    ],
+    [
+      "Permanently discard your current changes before switching branches",
+      "切换分支前永久丢弃当前更改"
+    ],
+    [
+      "You have uncommitted changes on your current branch. How would you like to handle them before switching?",
+      "当前分支有未提交的更改。切换前希望如何处理？"
+    ],
+    [
+      "Create a checkpoint commit with your current changes",
+      "用当前更改创建检查点提交"
+    ],
+    [
+      "Automatically review pull requests (PRs) for bugs and issues.",
+      "自动审查拉取请求中的缺陷和问题。"
+    ],
+    [
+      "Automatically review and scan code for security-related bugs, issues, and vulnerabilities.",
+      "自动审查并扫描代码中的安全缺陷、问题和漏洞。"
+    ],
+    [
+      "Your organization has configured repository access rules that require Git to be installed. Please install Git and restart Cursor to continue using the agent.",
+      "您的组织配置了仓库访问规则，需要安装 Git。请安装 Git 并重启 Cursor 后继续使用智能体。"
+    ],
+    [
+      "Failed to generate a branch name for the PR. Please try again.",
+      "无法为 PR 生成分支名。请重试。"
+    ],
+    [
+      "Cursor will stop tracking the pull request on this branch for this agent. The PR itself is not affected on GitHub.",
+      "Cursor 将停止跟踪此智能体在该分支上的拉取请求。GitHub 上的 PR 本身不受影响。"
+    ],
+    [
+      "GitHub connected, but Cursor could not open repository access setup. Please try granting repo access again.",
+      "已连接 GitHub，但 Cursor 无法打开仓库访问设置。请重新授予仓库访问权限。"
+    ],
+    [
+      "Cursor still needs GitHub app access to this repository. Finish setup in your browser.",
+      "Cursor 仍需要此仓库的 GitHub 应用访问权限。请在浏览器中完成设置。"
+    ],
+    [
+      "Create your own themes, tweak the vibe, and import your favorites",
+      "创建自己的主题、调整风格并导入收藏"
+    ],
+    [
+      "Show notifications for less urgent issues. Errors and informational notifications are always shown.",
+      "显示不太紧急的问题通知。错误和信息通知始终显示。"
+    ],
+    [
+      "Would you like to remember this preference for future sessions?",
+      "要记住此偏好以用于以后的会话吗？"
+    ],
+    [
+      "An error occurred while processing your request.",
+      "处理请求时出错。"
+    ],
+    [
+      "Run Private Inference in a separate local process to isolate it from remote workspace activity. Reload Cursor after changing this setting.",
+      "在单独的本地进程中运行私有推理，以便与远程工作区活动隔离。更改此设置后请重新加载 Cursor。"
+    ],
+    [
+      "Several agent tasks are competing for system resources. Run fewer in parallel to keep your system responsive.",
+      "多个智能体任务正在争用系统资源。请减少并行数量以保持系统响应。"
+    ],
+    [
+      "Enable auto-keep to have changes be updated automatically. You can also do this later in Cursor Settings.",
+      "启用自动保留后，更改会自动更新。您也可以稍后在 Cursor 设置中开启。"
+    ],
+    [
+      "Automatically index repositories locally to speed up Grep searches. Reload the window after changing this setting.",
+      "在本地自动索引仓库以加快 Grep 搜索。更改此设置后请重新加载窗口。"
+    ],
+    [
+      "Bring over your chats, and send a follow-up to fork it. Your plugins and skills are synced by default.",
+      "带上您的对话并发送后续消息来复刻它。插件和技能默认会同步。"
+    ],
+    [
+      "Cursor syncs your local skills so they can be used with Cloud Agents. Turn this off to disable syncing.",
+      "Cursor 会同步本地技能，以便云端智能体使用。关闭此项可停止同步。"
+    ],
+    [
+      "You don't have access to this agent's machine. The conversation and pull request are still available.",
+      "您无权访问此智能体的机器。对话和拉取请求仍然可用。"
+    ],
+    [
+      "Plugin skills selected for Cloud can't run in this environment. Remove them or switch back to Cloud.",
+      "为云端选择的插件技能无法在此环境运行。请移除它们，或切换回云端。"
+    ],
+    [
+      "Docker container configuration has changed. The container needs to be rebuilt for changes to take effect.",
+      "Docker 容器配置已更改。需要重新构建容器后更改才会生效。"
+    ],
+    [
+      "A secret with this name already exists in this scope.",
+      "此范围内已存在同名密钥。"
+    ],
+    [
+      "Also show the approval banner while Cursor is focused; the request card in the agent conversation always shows",
+      "Cursor 处于聚焦状态时也显示批准提示；智能体对话中的请求卡片始终显示"
+    ],
+    [
+      "Control which network requests are allowed when commands run in the sandbox. Edit allowed/denied domains in sandbox.json in your workspace.",
+      "控制命令在沙盒中运行时允许哪些网络请求。请在工作区的 sandbox.json 中编辑允许或拒绝的域名。"
+    ],
+    [
+      "Choose the default behavior of messages sent while Agent is working",
+      "选择智能体工作时发送消息的默认行为"
+    ],
+    [
+      "Choose the default behavior of messages sent from the queue",
+      "选择从队列发送消息的默认行为"
+    ],
+    [
+      "Your team has configured AWS Bedrock access. You can use your teams Bedrock instance without any additional configuration.",
+      "您的团队已配置 AWS Bedrock 访问。您可以直接使用团队的 Bedrock 实例，无需额外配置。"
+    ],
+    [
+      "AWS region used by your team's Bedrock configuration.",
+      "团队 Bedrock 配置使用的 AWS 区域。"
+    ],
+    [
+      "OpenAI-compatible API base URL for the local agent.",
+      "本地智能体使用的 OpenAI 兼容 API 基础 URL。"
+    ],
+    [
+      "Default voice for voice chats. Changing the voice plays a short sample.",
+      "语音对话的默认声音。更改声音时会播放一小段示例。"
+    ],
+    [
+      "Match the active theme to your OS dark/light setting",
+      "使当前主题跟随系统的深色或浅色设置"
+    ],
+    [
+      "Keep theme and follow-system settings matched with the IDE window",
+      "使主题和跟随系统设置与 IDE 窗口保持一致"
+    ],
+    [
+      "Choose whether the theme behaves like a light or dark theme",
+      "选择主题按浅色还是深色表现"
+    ],
+    [
+      "Spend limits for team plans are managed by team admins in the dashboard",
+      "团队计划的消费限额由团队管理员在仪表板中管理"
+    ],
+    [
+      "Off disables Self-driving for PRs owned by this account.",
+      "关闭后，此账户拥有的 PR 将禁用自动驾驶。"
+    ],
+    [
+      "Starts Self-driving when a PR opens on an enabled repository.",
+      "在已启用的仓库中打开 PR 时启动自动驾驶。"
+    ],
+    [
+      "Used when Self-driving starts automatically from account defaults.",
+      "按账户默认设置自动启动自动驾驶时使用。"
+    ],
+    [
+      "Posts Self-driving updates to Slack when there are suggestions for PRs.",
+      "当 PR 有建议时，将自动驾驶更新发布到 Slack。"
+    ],
+    [
+      "Select who can see and use plugins from this team marketplace",
+      "选择谁可以查看并使用此团队市场中的插件"
+    ],
+    [
+      "Automatically update plugins when changes are pushed to the repository",
+      "仓库有更新推送时自动更新插件"
+    ],
+    [
+      "Cursor keeps a synced copy of this repository and serves plugins from it, so team members can use the marketplace without GitHub access to the source repo. Access is controlled by Marketplace Access.",
+      "Cursor 会保留此仓库的同步副本并从中提供插件，因此团队成员无需拥有源仓库的 GitHub 访问权限也能使用市场。访问权限由「市场访问权限」控制。"
+    ],
+    [
+      "Fetch marketplace plugins from the GitHub repository",
+      "从 GitHub 仓库获取市场插件"
+    ],
+    [
+      "This marketplace and its access settings will be removed. The source repository won't be affected.",
+      "将移除此市场及其访问设置。源仓库不受影响。"
+    ],
+    [
+      "This marketplace will be removed from your account. The source repository won't be affected.",
+      "此市场将从您的账户中移除。源仓库不受影响。"
+    ],
+    [
+      "Creates a new MCP configuration with example servers",
+      "使用示例服务器创建新的 MCP 配置"
+    ],
+    [
+      "Please update your payment method to keep using Cursor.",
+      "请更新付款方式以继续使用 Cursor。"
+    ],
+    [
+      "Re-authorize your UPI payment method to restore automatic payments",
+      "重新授权您的 UPI 付款方式以恢复自动付款"
+    ],
+    [
+      "This will remove all cookies. You may be signed out of websites.",
+      "这将移除所有 Cookie。您可能会从网站退出登录。"
+    ],
+    [
+      "This will remove all manually accepted certificates.",
+      "这将移除所有手动接受的证书。"
+    ],
+    [
+      "Set a fixed amount or make on-demand usage unlimited",
+      "设置固定金额，或使按需用量不受限制"
+    ],
+    [
+      "Move to Cloud to keep running longer without your computer open.",
+      "移到云端，这样不打开电脑也能继续运行更长时间。"
+    ],
+    [
+      "All commits in each PR will be added to the base branch via a merge commit.",
+      "每个 PR 中的全部提交都会通过合并提交加入基础分支。"
+    ],
+    [
+      "The entire stack will be squashed into a single commit in the base branch.",
+      "整个堆叠会被压缩成基础分支上的一个提交。"
+    ],
+    [
+      "Merge blocked: required status checks are failing",
+      "合并被阻止：必需的状态检查失败"
+    ],
+    [
+      "Merge blocked: required status checks are still running",
+      "合并被阻止：必需的状态检查仍在运行"
+    ],
+    [
+      "When Agent decides it's relevant based on description",
+      "当智能体根据说明判断相关时应用"
+    ],
+    [
+      "Cursor will restart. Agent requests will then use Cursor-managed models instead of the team's inference gateway.",
+      "Cursor 将重启。之后智能体请求将使用 Cursor 托管的模型，而不是团队的推理网关。"
+    ],
+    [
+      "Cursor will restart. Agent requests will then go to the team's inference gateway.",
+      "Cursor 将重启。之后智能体请求将发往团队的推理网关。"
+    ],
+    [
+      "You'll be logged out of your Cursor account on this device.",
+      "您将在此设备上退出 Cursor 账户。"
+    ],
+    [
+      "Words that send your prompt while you dictate. Voice chats ignore them.",
+      "听写时用于发送提示的词语。语音对话会忽略它们。"
+    ],
+    [
+      "Allow agent to switch to modes without asking. When off, skips if unanswered within 15 seconds.",
+      "允许智能体在不询问的情况下切换模式。关闭后，若 15 秒内未回复则跳过。"
+    ],
+    [
+      "Control whether agents can read files outside the workspace without approval.",
+      "控制智能体是否可以在未经批准的情况下读取工作区外的文件。"
+    ],
+    [
+      "File paths and glob patterns agents can read without approval.",
+      "智能体无需批准即可读取的文件路径和 glob 模式。"
+    ],
+    [
+      "Configure HTTP compatibility for proxies and VPNs",
+      "为代理和 VPN 配置 HTTP 兼容性"
+    ],
+    [
+      "Choose the model used by Explore subagent for initial research",
+      "选择探索子智能体在初步研究时使用的模型"
+    ],
+    [
+      "Automatically parse links pasted into Quick Edit",
+      "自动解析粘贴到快速编辑中的链接"
+    ],
+    [
+      "Wait indefinitely; otherwise skip prompts after 30 seconds",
+      "无限期等待；否则在 30 秒后跳过提示"
+    ],
+    [
+      "Cmd+K: Escape Focuses the Editor When You Have a Diff",
+      "Cmd+K：有差异时按 Escape 聚焦编辑器"
+    ],
+    [
+      "Mirror VS Code RPCs into the DevTools Network tab and record local performance marks. Adds overhead, so leave it off unless you're debugging.",
+      "将 VS Code RPC 镜像到开发者工具的网络面板，并记录本地性能标记。这会增加开销，请仅在调试时开启。"
+    ],
+    [
+      "Optional folder for RPC logs (defaults to logs/exthost).",
+      "RPC 日志的可选文件夹（默认 logs/exthost）。"
+    ],
+    [
+      "Load React Developer Tools so Chrome DevTools shows the Components and Profiler tabs. It slows every React commit, so it's off by default. Restarts Cursor.",
+      "加载 React 开发者工具，以便 Chrome 开发者工具显示组件和性能分析标签。它会拖慢每次 React 提交，因此默认关闭。更改后会重启 Cursor。"
+    ],
+    [
+      "Show React's component render tracks in the Chrome DevTools Performance panel. They cost time on every commit even when nothing is recording, so turn them on only to profile. Reloads the window.",
+      "在 Chrome 开发者工具的性能面板中显示 React 组件渲染轨道。即使没有录制也会在每次提交时产生开销，请仅在分析性能时开启。更改后会重新加载窗口。"
+    ],
+    [
+      "Report disposables that are garbage-collected without being disposed. On by default in development builds; it captures a creation stack per disposable, so turn it off when profiling.",
+      "报告未经释放就被垃圾回收的 disposable。开发版本默认开启；它会为每个 disposable 捕获创建堆栈，分析性能时请关闭。"
+    ],
+    [
+      "Start a side chat with this conversation as context; runs alongside without interrupting the main chat",
+      "以此对话为上下文开始侧边对话；它会并行运行，且不会打断主对话"
+    ],
+    [
+      "Are you sure you want to reset the chat mode to default?",
+      "确定要将对话模式重置为默认吗？"
+    ],
+    [
+      "A background task finished, but the chat couldn't resume. Try again in a moment.",
+      "后台任务已完成，但对话无法恢复。请稍后再试。"
+    ],
+    [
+      "Cursor does not have access to your microphone. Please enable in Settings.",
+      "Cursor 无法使用麦克风。请在设置中启用。"
+    ],
+    [
+      "Switched to Auto, which provides significantly higher usage limits.",
+      "已切换到 Auto，它提供高得多的用量限额。"
+    ],
+    [
+      "What sending a message while Agent is running does",
+      "智能体运行时发送消息的行为"
+    ],
+    [
+      "Suggest a follow-up after each turn; Tab to insert",
+      "每轮结束后建议后续内容；按 Tab 插入"
+    ],
+    [
+      "Show notification toasts in the same location as the chat",
+      "在与对话相同的位置显示通知提示"
+    ],
+    [
+      "The agent's machine is being prepared. This can take a few minutes.",
+      "正在准备智能体的机器。这可能需要几分钟。"
+    ],
+    [
+      "Point at anything and tell the agent what to fix",
+      "指向任何内容，并告诉智能体要修复什么"
+    ],
+    [
+      "The plugins you're removing from the marketplace will no longer be available to users and Cloud Agents that rely on them.",
+      "您从市场移除的插件将不再对依赖它们的用户和云端智能体可用。"
+    ],
+    [
+      "Open pull request links inside Cursor or the default browser",
+      "在 Cursor 或默认浏览器中打开拉取请求链接"
+    ],
+    [
+      "No recent commits found in selected repositories.",
+      "所选仓库中没有最近的提交。"
+    ],
+    [
+      "Split the current work into reviewable pull requests",
+      "把当前工作拆成可审查的拉取请求"
+    ],
+    [
+      "Applying changes locally. This may take a few seconds.",
+      "正在本地应用更改。这可能需要几秒钟。"
+    ],
+    [
+      "Choose the theme used when your system is in dark mode",
+      "选择系统处于深色模式时使用的主题"
+    ],
+    [
+      "Choose the theme used when your system is in light mode",
+      "选择系统处于浅色模式时使用的主题"
+    ],
+    [
+      "Choose the theme used when your system is in dark high contrast mode",
+      "选择系统处于深色高对比度模式时使用的主题"
+    ],
+    [
+      "Choose the theme used when your system is in light high contrast mode",
+      "选择系统处于浅色高对比度模式时使用的主题"
+    ],
+    [
+      "This will remove the custom theme from your saved themes.",
+      "这将从已保存的主题中移除此自定义主题。"
+    ],
+    [
+      "Use preview box for terminal cmd-k. If turned off, responses are streamed directly into the shell.",
+      "对终端 Cmd+K 使用预览框。关闭后，回复会直接流式输出到 shell。"
+    ],
+    [
+      "Enable performance protection for inline diffs. When enabled, inline diff decorations will be suppressed if there are too many changes to prevent editor unresponsiveness.",
+      "为内联差异启用性能保护。开启后，如果更改过多，将抑制内联差异装饰，以免编辑器失去响应。"
+    ],
+    [
+      "Controls the maximum width in pixels of chat content.",
+      "控制对话内容的最大宽度（像素）。"
+    ],
+    [
+      "Files to exclude from indexing in addition to .gitignore",
+      "除 .gitignore 之外，索引时还要排除的文件"
+    ],
+    [
+      "Global list of files to always ignore in Cursor features, across all workspaces. Uses glob patterns. These patterns have the same effect as adding them to a .cursorignore file in every workspace.",
+      "在所有工作区的 Cursor 功能中始终忽略的全局文件列表。使用 glob 模式。效果等同于把这些模式写进每个工作区的 .cursorignore。"
+    ],
+    [
+      "Interval in hours for periodic worktree cleanup. Default is 6 hours.",
+      "定期清理工作树的间隔（小时）。默认 6 小时。"
+    ],
+    [
+      "Maximum total size in GB for the Cursor worktrees directory across all workspaces. Set to 0 to disable this limit.",
+      "所有工作区中 Cursor 工作树目录的总大小上限（GB）。设为 0 可禁用此限制。"
+    ],
+    [
+      "Maximum number of Cursor-managed worktrees to keep across all workspaces. Older worktrees are removed first. Default is 25.",
+      "所有工作区中保留的 Cursor 管理工作树数量上限。较旧的工作树会先被移除。默认 25。"
+    ],
+    [
+      "Maximum number of local Agent Window workspaces that can run language servers.",
+      "可运行语言服务器的本地智能体窗口工作区数量上限。"
+    ],
+    [
+      "Maximum number of remote Agent Window workspaces that can run language servers.",
+      "可运行语言服务器的远程智能体窗口工作区数量上限。"
+    ],
+    [
+      "Cursor periodically removes old worktrees to free disk space",
+      "Cursor 会定期移除旧工作树以释放磁盘空间"
+    ],
+    [
+      "Cursor syncs your local skills so they can be used with Cloud Agents",
+      "Cursor 会同步本地技能，以便云端智能体使用"
+    ],
+    [
+      "Enable or disable Self-driving for PRs owned by this account",
+      "为此账户拥有的 PR 启用或禁用自动驾驶"
+    ],
+    [
+      "Choose whether automatically started agents suggest or apply changes",
+      "选择自动启动的智能体是提出建议还是直接应用更改"
+    ],
+    [
+      "Make the cursor.com profile page visible to anyone with the link",
+      "让任何拥有链接的人都能看到 cursor.com 个人资料页"
+    ],
+    [
+      "Social and website links on the public profile page",
+      "公开个人资料页上的社交和网站链接"
+    ],
+    [
+      "Configuration for MCP (Model Control Protocol) servers",
+      "MCP 服务器的配置"
+    ],
+    [
+      "Environment variables to set for the server process",
+      "为服务器进程设置的环境变量"
+    ],
+    [
+      "Optional HTTP headers to include with every request to the server",
+      "每次请求服务器时包含的可选 HTTP 标头"
+    ],
+    [
+      "Attach when files matching these patterns are read",
+      "读取匹配这些模式的文件时附加"
+    ],
+    [
+      "Disable HTTP/2 for all requests, and use HTTP/1.1 instead. This increases resource utilization and latency, but is useful if you're behind a corporate proxy that blocks HTTP/2.",
+      "对所有请求禁用 HTTP/2，改用 HTTP/1.1。这会增加资源占用和延迟，但在公司代理拦截 HTTP/2 时有用。"
+    ],
+    [
+      "Disable HTTP/1.1 SSE for agent chat. This increases resource utilization and latency, but is useful if you're behind a corporate proxy that does not support HTTP/1.1 SSE streaming responses.",
+      "对智能体对话禁用 HTTP/1.1 SSE。这会增加资源占用和延迟，但在公司代理不支持 HTTP/1.1 SSE 流式响应时有用。"
+    ],
+    [
+      "Although the .cursor/environment.json file exists on your local machine, it needs to be pushed to your online repository (e.g. GitHub/GitLab). Please commit and push the .cursor/environment.json file to continue.",
+      "本机已有 .cursor/environment.json，但需要推送到在线仓库（例如 GitHub/GitLab）。请提交并推送该文件后继续。"
+    ],
+    [
+      "Index your git history to help Cursor understand which files are related to each other. Code and commit messages are stored locally, but metadata about commits (SHAs, number of changes, and encrypted file names) are stored on the server.",
+      "索引 Git 历史，帮助 Cursor 理解文件之间的关系。代码和提交说明保存在本地，但提交元数据（SHA、更改数量和加密后的文件名）会保存在服务器上。"
+    ],
+    [
+      "Let Cursor see logs and view your app with Playwright MCP",
+      "让 Cursor 通过 Playwright MCP 查看日志和应用"
+    ],
+    [
+      "Connect your Notion workspace to search, update, and trigger workflows across tools.",
+      "连接 Notion 工作区，以便跨工具搜索、更新并触发工作流。"
+    ],
+    [
+      "Create a document, diagram, or small website to express an idea.",
+      "创建文档、图表或小型网站来表达想法。"
+    ],
+    [
+      "Duplicate the current repository in a new workspace.",
+      "在新工作区中复制当前仓库。"
+    ],
+    [
+      "Bulk Import Chats — pick directory of exported chats",
+      "批量导入对话 — 选择导出对话所在的目录"
+    ],
+    [
+      "Text size scale for the markdown plan editor. `default` matches Agent chat text size (`cursor.composer.textSizeScale`). Other values fix the scale (0.85–1.3).",
+      "Markdown 计划编辑器的文字缩放。`default` 与智能体对话文字大小一致（`cursor.composer.textSizeScale`）。其他值会固定缩放比例（0.85–1.3）。"
+    ],
+    [
+      "List of action IDs to always show in the editor title bar. These actions will be pinned and visible regardless of the default visibility settings.",
+      "始终显示在编辑器标题栏中的操作 ID 列表。这些操作会被固定，不受默认可见性设置影响。"
+    ],
+    [
+      "When enabled, uses grayscale antialiasing for thinner, crisper text that matches native macOS rendering.",
+      "开启后使用灰度抗锯齿，让文字更细、更清晰，并接近 macOS 原生渲染。"
+    ],
+    [
+      "Cloud agents require all workspace folders to be inside a Git repository.",
+      "云端智能体要求所有工作区文件夹都位于 Git 仓库内。"
+    ],
+    [
+      "All context items were filtered out because they are too big.",
+      "所有上下文项都因过大而被过滤。"
+    ],
+    [
+      "Failed to stage changes. Please check file permissions and try again.",
+      "暂存更改失败。请检查文件权限后重试。"
+    ],
+    [
+      "Capturing snapshot. The window may briefly freeze.",
+      "正在捕获快照。窗口可能会短暂卡住。"
+    ],
+    [
+      "Done. Cursor can now see logs and view your browser.",
+      "完成。Cursor 现在可以查看日志和浏览器。"
+    ],
+    [
+      "Review active work and summarize progress, blockers, and next actions.",
+      "审查当前工作，并总结进度、阻碍和下一步。"
+    ],
+    [
+      "Summarize recent project activity, progress, risks, and blockers.",
+      "总结最近的项目活动、进度、风险和阻碍。"
+    ],
+    [
+      "Summarize urgent messages, assigned issues, and GitHub activity each weekday.",
+      "每个工作日总结紧急消息、分配的议题和 GitHub 活动。"
+    ],
+    [
+      "Fetches the latest origin/main and reports whether the current branch is behind.",
+      "获取最新的 origin/main，并报告当前分支是否落后。"
+    ],
+    [
+      "Scheduled tasks run on this machine while Cursor is open",
+      "计划任务会在 Cursor 打开时在这台机器上运行"
+    ],
+    [
+      "Wait for CI, PR, Slack, or Linear events instead of polling.",
+      "等待 CI、PR、Slack 或 Linear 事件，而不是轮询。"
+    ],
+    [
+      "Trigger an agent to run based on a trigger or schedule.",
+      "根据触发器或计划运行智能体。"
+    ],
+    [
+      "Follow-ups aren't available for this subagent",
+      "此子智能体无法发送后续消息"
+    ],
+    [
+      "Couldn't load this conversation. Send a follow-up or reload the window to try again.",
+      "无法加载此对话。发送后续消息或重新加载窗口后再试。"
+    ],
+    [
+      "Additional usage beyond limits consumes on-demand spend.",
+      "超出限额的额外用量会产生按需消费。"
+    ],
+    [
+      "Additional usage beyond limits consumes API quota or on-demand usage.",
+      "超出限额的额外用量会消耗 API 配额或按需用量。"
+    ],
+    [
+      "Consumed by Auto. Additional usage consumes API quota.",
+      "由 Auto 消耗。额外用量会消耗 API 配额。"
+    ],
+    [
+      "% used",
+      "% 已用"
+    ],
+    [
+      "% Used",
+      "% 已用"
     ]
   ]
 }
